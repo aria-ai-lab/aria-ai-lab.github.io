@@ -1,9 +1,12 @@
 <header class="nav">
   <div class="wrap nav-inner">
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-      {% include wordmark.html scale="0.34" %}
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} — {{ site.lab_label }}">
+      {% include wordmark.html scale="0.4" %}
       <span class="brand-div"></span>
-      <span class="brand-label">{{ site.lab_label }}</span>
+      <span class="brand-text">
+        <span class="brand-label">{{ site.lab_label }}</span>
+        <span class="brand-tag">Agency&nbsp;·&nbsp;Reasoning&nbsp;·<br>Intelligence&nbsp;·&nbsp;Autonomy</span>
+      </span>
     </a>
 
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
