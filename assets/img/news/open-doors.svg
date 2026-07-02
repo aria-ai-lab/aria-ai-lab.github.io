@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img" aria-label="ARIA opens its doors at Peking University">
+  <defs>
+    <radialGradient id="od-sun" cx="50%" cy="40%" r="58%">
+      <stop offset="0%" stop-color="#F4DCC7"/>
+      <stop offset="55%" stop-color="#E7C3A6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#F6F1E7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="od-door" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#EAC7A7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="270" fill="#F6F1E7"/>
+  <rect width="480" height="270" fill="url(#od-sun)"/>
+
+  <!-- ground: the staff -->
+  <g stroke="#B4572F" stroke-width="1.5" opacity="0.18">
+    <line x1="36" y1="216" x2="444" y2="216"/>
+    <line x1="36" y1="228" x2="444" y2="228"/>
+    <line x1="36" y1="240" x2="444" y2="240"/>
+  </g>
+
+  <!-- glowing passage -->
+  <rect x="176" y="120" width="128" height="94" fill="url(#od-door)"/>
+
+  <!-- open door leaves -->
+  <g stroke="#23201B" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M176 122 L206 138 L206 206 L176 213 Z" fill="#D3A985"/>
+    <path d="M304 122 L274 138 L274 206 L304 213 Z" fill="#B4572F"/>
+  </g>
+  <g stroke="#23201B" stroke-width="1" opacity="0.45">
+    <line x1="191" y1="132" x2="191" y2="205"/>
+    <line x1="289" y1="132" x2="289" y2="205"/>
+  </g>
+  <rect x="150" y="211" width="180" height="6" rx="2" fill="#23201B" opacity="0.9"/>
+
+  <!-- posts -->
+  <rect x="150" y="118" width="12" height="95" fill="#23201B"/>
+  <rect x="318" y="118" width="12" height="95" fill="#23201B"/>
+
+  <!-- lintel -->
+  <rect x="136" y="112" width="208" height="10" rx="2" fill="#23201B"/>
+
+  <!-- sweeping roof -->
+  <path d="M64 118 Q150 96 240 96 Q330 96 416 118 Q330 82 240 82 Q150 82 64 118 Z" fill="#23201B"/>
+  <path d="M64 118 Q50 111 57 102" fill="none" stroke="#23201B" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M416 118 Q430 111 423 102" fill="none" stroke="#23201B" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- ridge note finial -->
+  <line x1="242" y1="88" x2="242" y2="60" stroke="#B4572F" stroke-width="2.4"/>
+  <ellipse cx="236" cy="88" rx="6.6" ry="4.7" fill="#B4572F" transform="rotate(-20 236 88)"/>
+
+  <!-- red lanterns -->
+  <g>
+    <line x1="106" y1="110" x2="106" y2="126" stroke="#8A4A2A" stroke-width="1.4"/>
+    <ellipse cx="106" cy="137" rx="8" ry="10" fill="#B4572F" stroke="#8A4A2A" stroke-width="1.2"/>
+    <line x1="106" y1="147" x2="106" y2="156" stroke="#D39A78" stroke-width="1.5"/>
+    <line x1="374" y1="110" x2="374" y2="126" stroke="#8A4A2A" stroke-width="1.4"/>
+    <ellipse cx="374" cy="137" rx="8" ry="10" fill="#B4572F" stroke="#8A4A2A" stroke-width="1.2"/>
+    <line x1="374" y1="147" x2="374" y2="156" stroke="#D39A78" stroke-width="1.5"/>
+  </g>
+</svg>

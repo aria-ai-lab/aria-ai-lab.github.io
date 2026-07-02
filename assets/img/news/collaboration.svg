@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img" aria-label="Collaboration launched on value-driven autonomous agency">
+  <defs>
+    <radialGradient id="co-spot" cx="50%" cy="44%" r="56%">
+      <stop offset="0%" stop-color="#F4DCC7"/>
+      <stop offset="55%" stop-color="#E7C3A6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F6F1E7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="480" height="270" fill="#F6F1E7"/>
+  <rect width="480" height="270" fill="url(#co-spot)"/>
+
+  <!-- ground: the staff -->
+  <g stroke="#B4572F" stroke-width="1.5" opacity="0.16">
+    <line x1="36" y1="232" x2="444" y2="232"/>
+    <line x1="36" y1="244" x2="444" y2="244"/>
+    <line x1="36" y1="256" x2="444" y2="256"/>
+  </g>
+  <!-- lead-in note -->
+  <line x1="58" y1="231" x2="58" y2="182" stroke="#B4572F" stroke-width="2.2"/>
+  <ellipse cx="52" cy="231" rx="6.6" ry="4.7" fill="#B4572F" transform="rotate(-20 52 231)"/>
+
+  <!-- sparkles -->
+  <path d="M142 82 L145 96 L159 99 L145 102 L142 116 L139 102 L125 99 L139 96 Z" fill="#B4572F" opacity="0.8"/>
+  <path d="M332 92 L334 101 L343 103 L334 105 L332 114 L330 105 L321 103 L330 101 Z" fill="#D39A78"/>
+
+  <!-- collaboration cycle: two agents exchanging around a shared value -->
+  <path d="M198 138 Q240 106 282 138" fill="none" stroke="#23201B" stroke-width="2.6" stroke-linecap="round"/>
+  <polygon points="284.4,139.8 273.4,137.7 279.4,129.7" fill="#23201B"/>
+  <path d="M282 162 Q240 194 198 162" fill="none" stroke="#B4572F" stroke-width="2.6" stroke-linecap="round"/>
+  <polygon points="195.6,160.2 206.6,162.3 200.6,170.3" fill="#B4572F"/>
+
+  <!-- left agent -->
+  <line x1="176" y1="124" x2="176" y2="113" stroke="#23201B" stroke-width="2"/>
+  <circle cx="176" cy="110" r="3.2" fill="#B4572F"/>
+  <circle cx="176" cy="150" r="26" fill="#23201B"/>
+  <circle cx="176" cy="150" r="18" fill="none" stroke="#F6F1E7" stroke-width="1.4" opacity="0.32"/>
+
+  <!-- right agent -->
+  <line x1="304" y1="124" x2="304" y2="113" stroke="#B4572F" stroke-width="2"/>
+  <circle cx="304" cy="110" r="3.2" fill="#D39A78"/>
+  <circle cx="304" cy="150" r="26" fill="#B4572F"/>
+  <circle cx="304" cy="150" r="18" fill="none" stroke="#F6F1E7" stroke-width="1.4" opacity="0.4"/>
+
+  <!-- shared value: a compass -->
+  <circle cx="240" cy="150" r="19.5" fill="#FBF8F1" stroke="#23201B" stroke-width="1" opacity="0.9"/>
+  <circle cx="240" cy="150" r="16" fill="#FBF8F1" stroke="#23201B" stroke-width="1.6"/>
+  <g stroke="#23201B" stroke-width="1.4" stroke-linecap="round">
+    <line x1="240" y1="135" x2="240" y2="139"/>
+    <line x1="240" y1="161" x2="240" y2="165"/>
+    <line x1="225" y1="150" x2="229" y2="150"/>
+    <line x1="251" y1="150" x2="255" y2="150"/>
+  </g>
+  <polygon points="240,137 235.5,150 244.5,150" fill="#B4572F"/>
+  <polygon points="240,163 235.5,150 244.5,150" fill="#D39A78"/>
+  <circle cx="240" cy="150" r="2.4" fill="#23201B"/>
+</svg>

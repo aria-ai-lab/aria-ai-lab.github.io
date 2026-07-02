@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img" aria-label="ARIA work lands on the cover of Nature Machine Intelligence">
+  <defs>
+    <radialGradient id="nmi-spot" cx="50%" cy="44%" r="56%">
+      <stop offset="0%" stop-color="#F4DCC7"/>
+      <stop offset="55%" stop-color="#E7C3A6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F6F1E7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="480" height="270" fill="#F6F1E7"/>
+  <rect width="480" height="270" fill="url(#nmi-spot)"/>
+
+  <!-- ground: the staff -->
+  <g stroke="#B4572F" stroke-width="1.5" opacity="0.16">
+    <line x1="36" y1="236" x2="444" y2="236"/>
+    <line x1="36" y1="248" x2="444" y2="248"/>
+    <line x1="36" y1="260" x2="444" y2="260"/>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#B4572F">
+    <path d="M150 74 L153 89 L168 92 L153 95 L150 110 L147 95 L132 92 L147 89 Z" opacity="0.8"/>
+    <path d="M330 176 L332 185 L341 187 L332 189 L330 198 L328 189 L319 187 L328 185 Z" opacity="0.7"/>
+  </g>
+  <path d="M338 104 L340 112 L348 114 L340 116 L338 124 L336 116 L328 114 L336 112 Z" fill="#D39A78"/>
+
+  <!-- journal cover -->
+  <g transform="rotate(-4 240 134)">
+    <!-- drop shadow -->
+    <rect x="182" y="46" width="128" height="188" rx="4" fill="#23201B" opacity="0.12"/>
+    <!-- cover face -->
+    <rect x="176" y="40" width="128" height="188" rx="4" fill="#FBF8F1" stroke="#23201B" stroke-width="1.5"/>
+
+    <!-- masthead -->
+    <path d="M177 44 h126 v32 h-126 Z" fill="#23201B"/>
+    <text x="186" y="62" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="19" fill="#F6F1E7">nature</text>
+    <text x="187" y="71" font-family="ui-monospace, Menlo, monospace" font-size="5.6" letter-spacing="0.16em" fill="#D39A78">MACHINE INTELLIGENCE</text>
+
+    <!-- cover art: olympiad geometry -->
+    <g>
+      <circle cx="240" cy="132" r="34" fill="none" stroke="#D39A78" stroke-width="1.5"/>
+      <path d="M240 100 L211 159 L270 157 Z" fill="#B4572F" fill-opacity="0.12" stroke="#23201B" stroke-width="1.6" stroke-linejoin="round"/>
+      <line x1="240" y1="100" x2="242" y2="158" stroke="#23201B" stroke-width="1" opacity="0.55"/>
+      <path d="M240 100 L214 122" stroke="#B4572F" stroke-width="1" stroke-dasharray="3 3" opacity="0.7"/>
+      <path d="M240 100 L268 124" stroke="#B4572F" stroke-width="1" stroke-dasharray="3 3" opacity="0.7"/>
+      <path d="M236 158 v-5 h5" fill="none" stroke="#23201B" stroke-width="1" opacity="0.55"/>
+      <g fill="#B4572F">
+        <circle cx="240" cy="100" r="2.8"/>
+        <circle cx="211" cy="159" r="2.8"/>
+        <circle cx="270" cy="157" r="2.8"/>
+      </g>
+      <g fill="#D39A78">
+        <circle cx="214" cy="122" r="2.2"/>
+        <circle cx="268" cy="124" r="2.2"/>
+      </g>
+    </g>
+
+    <!-- coverlines -->
+    <text x="184" y="192" font-family="ui-monospace, Menlo, monospace" font-size="6" letter-spacing="0.14em" fill="#B4572F">GUIDED TREE SEARCH</text>
+    <text x="184" y="206" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-weight="600" font-size="13" fill="#23201B">Olympiad geometry, solved</text>
+    <g fill="#23201B" opacity="0.28">
+      <rect x="184" y="213" width="96" height="3.4" rx="1.7"/>
+      <rect x="184" y="220" width="66" height="3.4" rx="1.7"/>
+    </g>
+  </g>
+
+  <!-- award seal: COVER -->
+  <g transform="rotate(-10 306 58)">
+    <g stroke="#B4572F" stroke-width="2.4" stroke-linecap="round">
+      <line x1="306" y1="36" x2="306" y2="42"/>
+      <line x1="306" y1="74" x2="306" y2="80"/>
+      <line x1="284" y1="58" x2="290" y2="58"/>
+      <line x1="322" y1="58" x2="328" y2="58"/>
+      <line x1="291" y1="43" x2="295" y2="47"/>
+      <line x1="317" y1="69" x2="321" y2="73"/>
+      <line x1="321" y1="43" x2="317" y2="47"/>
+      <line x1="295" y1="69" x2="291" y2="73"/>
+    </g>
+    <circle cx="306" cy="58" r="16" fill="#B4572F"/>
+    <circle cx="306" cy="58" r="12.5" fill="none" stroke="#F6F1E7" stroke-width="1.1" opacity="0.85"/>
+    <path d="M306 50 L307.6 54.4 L312 54.6 L308.5 57.4 L309.8 61.8 L306 59.2 L302.2 61.8 L303.5 57.4 L300 54.6 L304.4 54.4 Z" fill="#F6F1E7"/>
+    <text x="306" y="67" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="6" font-weight="700" letter-spacing="0.12em" fill="#F6F1E7">COVER</text>
+  </g>
+</svg>

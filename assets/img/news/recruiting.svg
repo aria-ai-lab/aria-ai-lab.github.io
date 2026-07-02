@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img" aria-label="We are recruiting PhD students, interns, and engineers">
+  <rect width="480" height="270" fill="#F6F1E7"/>
+
+  <!-- the staff -->
+  <g stroke="#B4572F" stroke-width="1.5" opacity="0.2">
+    <line x1="36" y1="188" x2="444" y2="188"/>
+    <line x1="36" y1="200" x2="444" y2="200"/>
+    <line x1="36" y1="212" x2="444" y2="212"/>
+    <line x1="36" y1="224" x2="444" y2="224"/>
+  </g>
+
+  <!-- lead-in note (clef) -->
+  <line x1="58" y1="211" x2="58" y2="150" stroke="#B4572F" stroke-width="2.2"/>
+  <ellipse cx="52" cy="211" rx="6.6" ry="4.7" fill="#B4572F" transform="rotate(-20 52 211)"/>
+
+  <!-- phrase mark over the company -->
+  <path d="M104 100 Q248 72 392 100" fill="none" stroke="#B4572F" stroke-width="2" opacity="0.5"/>
+
+  <!-- member: ink -->
+  <g fill="#23201B">
+    <circle cx="104" cy="128" r="17"/>
+    <path d="M81 200 C81 158 91 148 104 148 C117 148 127 158 127 200 Z"/>
+  </g>
+
+  <!-- member: rust -->
+  <g fill="#B4572F">
+    <circle cx="196" cy="128" r="17"/>
+    <path d="M173 200 C173 158 183 148 196 148 C209 148 219 158 219 200 Z"/>
+  </g>
+
+  <!-- member: clay -->
+  <g fill="#D39A78">
+    <circle cx="288" cy="128" r="17"/>
+    <path d="M265 200 C265 158 275 148 288 148 C301 148 311 158 311 200 Z"/>
+  </g>
+
+  <!-- open seat: dashed placeholder with a + -->
+  <g fill="none" stroke="#23201B" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.55">
+    <circle cx="392" cy="128" r="17"/>
+    <path d="M369 200 C369 158 379 148 392 148 C405 148 415 158 415 200 Z"/>
+  </g>
+  <circle cx="392" cy="170" r="13" fill="#B4572F"/>
+  <g stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round">
+    <line x1="392" y1="164" x2="392" y2="176"/>
+    <line x1="386" y1="170" x2="398" y2="170"/>
+  </g>
+</svg>

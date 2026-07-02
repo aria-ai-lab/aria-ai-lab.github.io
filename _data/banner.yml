@@ -1,13 +1,11 @@
 # Running highlights banner on the home page.
 # image: path under /assets/img/ (falls back to a placeholder if omitted)
 # text:  short caption shown under the image
-- image: /assets/img/placeholder.svg
+- image: /assets/img/news/open-doors.svg
   text: ARIA opens its doors at Peking University.
-- image: /assets/img/placeholder.svg
-  text: New work on efficient reasoning agents in submission.
-- image: /assets/img/placeholder.svg
+- image: /assets/img/news/nmi-cover.svg
+  text: ARIA work lands on the cover of Nature Machine Intelligence.
+- image: /assets/img/news/recruiting.svg
   text: We are recruiting PhD students, interns, and engineers.
-- image: /assets/img/placeholder.svg
-  text: First lab robot platform comes online.
-- image: /assets/img/placeholder.svg
-  text: Collaboration launched on value-aligned agency.
+- image: /assets/img/news/collaboration.svg
+  text: Collaboration launched on value-driven autonomous agency.
