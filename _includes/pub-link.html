@@ -1,0 +1,10 @@
+{%- comment -%}
+  A labelled publication link pill; renders only when href is present.
+  Usage: {% include pub-link.html name="file" href=pub.links.pdf label="PDF" %}
+{%- endcomment -%}
+{%- if include.href -%}
+<a class="pill" href="{{ include.href }}" target="_blank" rel="noopener">
+  <svg class="ic-svg" viewBox="0 0 24 24" aria-hidden="true"><use href="#ic-{{ include.name }}"></use></svg>
+  <span>{{ include.label }}</span>
+</a>
+{%- endif -%}

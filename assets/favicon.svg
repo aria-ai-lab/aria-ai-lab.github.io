@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104">
+  <rect width="104" height="104" rx="24" fill="#B4572F"/>
+  <g stroke="#F6F1E7" stroke-width="2" opacity="0.34">
+    <line x1="24" y1="52" x2="80" y2="52"/>
+    <line x1="24" y1="64" x2="80" y2="64"/>
+    <line x1="24" y1="76" x2="80" y2="76"/>
+  </g>
+  <text x="52" y="58" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif"
+        font-style="italic" font-weight="500" font-size="66" fill="#F6F1E7">a</text>
+</svg>

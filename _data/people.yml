@@ -1,0 +1,20 @@
+# Lab members, grouped. Groups render in this order:
+#   faculty, technical_staff, interns, collaborators
+# Each person:
+#   name, role, affiliation, avatar (path under /assets/img/people/),
+#   email, homepage, github, scholar   -- any link may be omitted.
+
+faculty:
+  - name: Chi Zhang
+    role: Principal Investigator · Assistant Professor
+    affiliation: Peking University
+    avatar: /assets/img/people/chi-zhang.jpg
+    email: wellyzhangc@gmail.com
+    homepage: https://wellyzhang.github.io
+    github: https://github.com/WellyZhang
+
+technical_staff: []
+
+interns: []
+
+collaborators: []

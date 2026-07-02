@@ -1,0 +1,30 @@
+---
+layout: page
+permalink: /people/
+title: People
+subtitle: The people building ARIA — faculty, staff, interns, and collaborators.
+---
+
+{% assign groups = "faculty,technical_staff,interns,collaborators" | split: "," %}
+{% assign titles = "Faculty,Technical Staff,Interns,Collaborators" | split: "," %}
+
+{% assign shown = 0 %}
+{% for g in groups %}
+  {% assign list = site.data.people[g] %}
+  {% if list and list.size > 0 %}
+    {% assign shown = shown | plus: 1 %}
+    <section class="people-group">
+      <h2>{{ titles[forloop.index0] }}</h2>
+      <div class="rule"></div>
+      <div class="people-grid">
+        {% for person in list %}
+          {% include person-card.html person=person %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}
+
+{% if shown == 0 %}
+  <p class="empty">Our team is coming together — check back soon.</p>
+{% endif %}

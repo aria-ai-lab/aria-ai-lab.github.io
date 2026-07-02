@@ -1,0 +1,21 @@
+{%- comment -%}
+  ARIA wordmark: "aria" in italic Cormorant across a rust/clay musical staff,
+  with a lead-in note. Recolors automatically in dark mode via CSS variables.
+  Usage: {% include wordmark.html scale="1.6" %}
+{%- endcomment -%}
+<span class="wm" style="--wm-scale: {{ include.scale | default: '1' }};" aria-hidden="true">
+  <span class="wm-unit">
+    <svg class="wm-svg" width="230" height="118" viewBox="0 0 230 118">
+      <g class="wm-staff">
+        <line x1="4" y1="40" x2="226" y2="40"/>
+        <line x1="4" y1="54" x2="226" y2="54"/>
+        <line x1="4" y1="68" x2="226" y2="68"/>
+        <line x1="4" y1="82" x2="226" y2="82"/>
+        <line x1="4" y1="96" x2="226" y2="96"/>
+      </g>
+      <ellipse class="wm-note" cx="27" cy="82" rx="7" ry="5" transform="rotate(-20 27 82)"/>
+      <line class="wm-stem" x1="33.4" y1="81" x2="33.4" y2="45"/>
+    </svg>
+    <span class="wm-text">aria</span>
+  </span>
+</span>

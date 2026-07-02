@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Noto+Music&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#E8E1D3;font-family:system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .dv-turn{padding:46px 48px 40px;border-bottom:1px solid rgba(35,32,27,.09);scroll-margin-top:16px}
+  .dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 8px}
+  .dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#23201B;color:#F6F1E7;border-radius:4px;text-decoration:none;letter-spacing:.06em}
+  .dv-tname{font:600 13px/1.2 system-ui,sans-serif;color:#23201B;letter-spacing:.01em}
+  .dv-opts{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start}
+  .dv-opt{flex:none;display:flex;flex-direction:column;gap:11px;scroll-margin-top:16px;animation:dvup .6s cubic-bezier(.2,.7,.2,1) both}
+  .dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(35,32,27,.09);color:#23201B;border-radius:5px;text-decoration:none;letter-spacing:.04em}
+  .dv-olabel{display:flex;align-items:center;gap:9px;font:400 12px/1.3 system-ui,sans-serif;color:rgba(35,32,27,.6)}
+  .dv-opt:target .dv-oid{background:#B4572F;color:#fff}
+  .dv-next{margin:28px 0 0;font:12.5px/1.7 system-ui,sans-serif;color:rgba(35,32,27,.55)}
+  .dv-next a{color:#8a4a2a;text-decoration:none;border-bottom:1px solid rgba(138,74,42,.3)}
+  @keyframes dvup{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+</style>
+</helmet>
+<section class="dv-turn" id="t3">
+  <div class="dv-thd">
+    <a class="dv-tid" href="#t3">3</a>
+    <span class="dv-tname">ARIA · identity package — 2a “On the Staff”</span>
+  </div>
+  <div style="display:flex;align-items:center;gap:14px;margin:0 0 28px;padding:14px 0;border-top:1px solid rgba(35,32,27,.11);border-bottom:1px solid rgba(35,32,27,.11)">
+    <span style="font:400 12.5px/1.55 system-ui,sans-serif;color:rgba(35,32,27,.62);max-width:680px">The chosen mark, tuned and built out: the lead-in note pulled tight against the word, plus the horizontal lockup, favicon / app-icon, and a full dark mode. One consistent ink · rust · paper system.</span>
+  </div>
+
+  <div style="max-width:1080px;display:flex;flex-direction:column;gap:22px">
+
+    <!-- PRIMARY -->
+    <div style="background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:12px;box-shadow:0 1px 3px rgba(35,32,27,.06),0 18px 34px -26px rgba(35,32,27,.35);overflow:hidden">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:15px 20px 0">
+        <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:#B4572F;text-transform:uppercase">Primary logo</span>
+        <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">Cormorant · Italic 500 · ink on rust staff</span>
+      </div>
+      <div style="padding:48px 30px 52px;display:flex;justify-content:center;background:#FBF8F1;margin-top:14px;border-top:1px solid rgba(35,32,27,.06)">
+        <div style="position:relative;padding:30px;border:1px dashed rgba(180,87,47,.38);border-radius:8px">
+          <span style="position:absolute;top:-8px;left:14px;padding:0 6px;background:#FBF8F1;font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.14em;color:rgba(180,87,47,.75)">CLEAR SPACE</span>
+          <div style="width:288px;height:148px;position:relative">
+            <div style="position:absolute;top:0;left:0;transform:scale(1.25);transform-origin:top left">
+              <div style="position:relative;width:230px;height:118px">
+                <svg width="230" height="118" viewBox="0 0 230 118" style="position:absolute;inset:0;overflow:visible"><g stroke="#B4572F" stroke-width="1.5" opacity=".5"><line x1="4" y1="40" x2="226" y2="40"></line><line x1="4" y1="54" x2="226" y2="54"></line><line x1="4" y1="68" x2="226" y2="68"></line><line x1="4" y1="82" x2="226" y2="82"></line><line x1="4" y1="96" x2="226" y2="96"></line></g><ellipse cx="27" cy="82" rx="7" ry="5" fill="#B4572F" transform="rotate(-20 27 82)"></ellipse><line x1="33.4" y1="81" x2="33.4" y2="45" stroke="#B4572F" stroke-width="2"></line></svg>
+                <div style="position:absolute;left:60px;top:15px;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:80px;color:#23201B;letter-spacing:.01em;line-height:1">aria</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ROW: HORIZONTAL + FAVICON -->
+    <div style="display:flex;gap:22px;flex-wrap:wrap">
+
+      <div style="flex:1.35;min-width:420px;background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:12px;box-shadow:0 1px 3px rgba(35,32,27,.06),0 18px 34px -26px rgba(35,32,27,.35);overflow:hidden;display:flex;flex-direction:column">
+        <div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:15px 20px 0">
+          <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:#B4572F;text-transform:uppercase">Horizontal lockup</span>
+          <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">headers · letterhead</span>
+        </div>
+        <div style="flex:1;padding:38px 34px;display:flex;align-items:center;justify-content:center;background:#FBF8F1;margin-top:14px;border-top:1px solid rgba(35,32,27,.06)">
+          <div style="display:flex;align-items:center;gap:24px">
+            <div style="width:143px;height:74px;position:relative;flex:none">
+              <div style="position:absolute;top:0;left:0;transform:scale(0.62);transform-origin:top left">
+                <div style="position:relative;width:230px;height:118px">
+                  <svg width="230" height="118" viewBox="0 0 230 118" style="position:absolute;inset:0;overflow:visible"><g stroke="#B4572F" stroke-width="1.5" opacity=".5"><line x1="4" y1="40" x2="226" y2="40"></line><line x1="4" y1="54" x2="226" y2="54"></line><line x1="4" y1="68" x2="226" y2="68"></line><line x1="4" y1="82" x2="226" y2="82"></line><line x1="4" y1="96" x2="226" y2="96"></line></g><ellipse cx="27" cy="82" rx="7" ry="5" fill="#B4572F" transform="rotate(-20 27 82)"></ellipse><line x1="33.4" y1="81" x2="33.4" y2="45" stroke="#B4572F" stroke-width="2"></line></svg>
+                  <div style="position:absolute;left:60px;top:15px;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:80px;color:#23201B;letter-spacing:.01em;line-height:1">aria</div>
+                </div>
+              </div>
+            </div>
+            <div style="width:1px;height:58px;background:rgba(35,32,27,.2)"></div>
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <span style="font:600 9.5px/1 ui-monospace,Menlo,monospace;letter-spacing:.22em;color:#B4572F">RESEARCH LAB</span>
+              <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:19px;line-height:1.28;color:rgba(35,32,27,.78)">Agency · Reasoning ·<br>Intelligence · Autonomy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="flex:1;min-width:300px;background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:12px;box-shadow:0 1px 3px rgba(35,32,27,.06),0 18px 34px -26px rgba(35,32,27,.35);overflow:hidden;display:flex;flex-direction:column">
+        <div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:15px 20px 0">
+          <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:#B4572F;text-transform:uppercase">Favicon · app icon</span>
+          <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">the “a”, on the staff</span>
+        </div>
+        <div style="flex:1;padding:32px 24px 28px;display:flex;flex-direction:column;gap:22px;align-items:center;justify-content:center;background:#FBF8F1;margin-top:14px;border-top:1px solid rgba(35,32,27,.06)">
+          <div style="display:flex;align-items:flex-end;gap:20px">
+            <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+              <div style="width:104px;height:104px;border-radius:24px;background:#B4572F;position:relative;overflow:hidden;box-shadow:0 8px 18px -8px rgba(35,32,27,.55)">
+                <svg width="104" height="104" viewBox="0 0 104 104" style="position:absolute;inset:0"><g stroke="#F6F1E7" stroke-width="2" opacity=".34"><line x1="24" y1="52" x2="80" y2="52"></line><line x1="24" y1="64" x2="80" y2="64"></line><line x1="24" y1="76" x2="80" y2="76"></line></g></svg>
+                <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:66px;color:#F6F1E7;line-height:1;transform:translateY(-1px)">a</span></div>
+              </div>
+              <span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.14em;color:rgba(35,32,27,.5)">180 · APP</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+              <div style="width:32px;height:32px;position:relative"><div style="position:absolute;top:0;left:0;transform:scale(0.3077);transform-origin:top left"><div style="width:104px;height:104px;border-radius:24px;background:#B4572F;position:relative;overflow:hidden"><svg width="104" height="104" viewBox="0 0 104 104" style="position:absolute;inset:0"><g stroke="#F6F1E7" stroke-width="2" opacity=".34"><line x1="24" y1="52" x2="80" y2="52"></line><line x1="24" y1="64" x2="80" y2="64"></line><line x1="24" y1="76" x2="80" y2="76"></line></g></svg><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:66px;color:#F6F1E7;line-height:1;transform:translateY(-1px)">a</span></div></div></div></div>
+              <span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.14em;color:rgba(35,32,27,.5)">32</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+              <div style="width:16px;height:16px;position:relative"><div style="position:absolute;top:0;left:0;transform:scale(0.1538);transform-origin:top left"><div style="width:104px;height:104px;border-radius:24px;background:#B4572F;position:relative;overflow:hidden"><svg width="104" height="104" viewBox="0 0 104 104" style="position:absolute;inset:0"><g stroke="#F6F1E7" stroke-width="2" opacity=".34"><line x1="24" y1="52" x2="80" y2="52"></line><line x1="24" y1="64" x2="80" y2="64"></line><line x1="24" y1="76" x2="80" y2="76"></line></g></svg><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:66px;color:#F6F1E7;line-height:1;transform:translateY(-1px)">a</span></div></div></div></div>
+              <span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.14em;color:rgba(35,32,27,.5)">16</span>
+            </div>
+          </div>
+          <div style="display:flex;align-items:stretch;width:100%;max-width:260px;border-radius:9px 9px 0 0;overflow:hidden;border:1px solid rgba(35,32,27,.14);border-bottom:none;box-shadow:0 -1px 0 rgba(255,255,255,.5) inset">
+            <div style="display:flex;align-items:center;gap:8px;padding:9px 12px 10px;background:#FFFFFF;border-right:1px solid rgba(35,32,27,.1);border-radius:8px 8px 0 0;min-width:0">
+              <div style="width:16px;height:16px;flex:none;position:relative"><div style="position:absolute;top:0;left:0;transform:scale(0.1538);transform-origin:top left"><div style="width:104px;height:104px;border-radius:24px;background:#B4572F;position:relative;overflow:hidden"><svg width="104" height="104" viewBox="0 0 104 104" style="position:absolute;inset:0"><g stroke="#F6F1E7" stroke-width="2" opacity=".34"><line x1="24" y1="52" x2="80" y2="52"></line><line x1="24" y1="64" x2="80" y2="64"></line><line x1="24" y1="76" x2="80" y2="76"></line></g></svg><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:66px;color:#F6F1E7;line-height:1;transform:translateY(-1px)">a</span></div></div></div></div>
+              <span style="font:500 11px/1 system-ui,sans-serif;color:rgba(35,32,27,.8);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">ARIA — Research Lab</span>
+              <span style="margin-left:auto;font:400 12px/1 system-ui;color:rgba(35,32,27,.4);flex:none">×</span>
+            </div>
+            <div style="flex:1;background:#ECE6DA"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SITE HEADER (LIGHT) -->
+    <div style="background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:12px;box-shadow:0 1px 3px rgba(35,32,27,.06),0 18px 34px -26px rgba(35,32,27,.35);overflow:hidden">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:15px 20px 14px">
+        <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:#B4572F;text-transform:uppercase">In use · site header</span>
+        <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">light</span>
+      </div>
+      <div style="border-top:1px solid rgba(35,32,27,.08)">
+        <div style="display:flex;align-items:center;gap:8px;padding:9px 16px;background:#EFE9DC;border-bottom:1px solid rgba(35,32,27,.07)"><span style="width:10px;height:10px;border-radius:50%;background:#D8A48A"></span><span style="width:10px;height:10px;border-radius:50%;background:#E3CB8F"></span><span style="width:10px;height:10px;border-radius:50%;background:#A9C6A0"></span></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:15px 28px;background:#FBF8F1">
+          <div style="display:flex;align-items:center;gap:15px">
+            <div style="width:79px;height:41px;position:relative;flex:none"><div style="position:absolute;top:0;left:0;transform:scale(0.34);transform-origin:top left"><div style="position:relative;width:230px;height:118px"><svg width="230" height="118" viewBox="0 0 230 118" style="position:absolute;inset:0;overflow:visible"><g stroke="#B4572F" stroke-width="1.5" opacity=".5"><line x1="4" y1="40" x2="226" y2="40"></line><line x1="4" y1="54" x2="226" y2="54"></line><line x1="4" y1="68" x2="226" y2="68"></line><line x1="4" y1="82" x2="226" y2="82"></line><line x1="4" y1="96" x2="226" y2="96"></line></g><ellipse cx="27" cy="82" rx="7" ry="5" fill="#B4572F" transform="rotate(-20 27 82)"></ellipse><line x1="33.4" y1="81" x2="33.4" y2="45" stroke="#B4572F" stroke-width="2"></line></svg><div style="position:absolute;left:60px;top:15px;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:80px;color:#23201B;letter-spacing:.01em;line-height:1">aria</div></div></div></div>
+            <div style="width:1px;height:22px;background:rgba(35,32,27,.18)"></div>
+            <span style="font:600 8.5px ui-monospace,Menlo,monospace;letter-spacing:.18em;color:rgba(35,32,27,.5)">RESEARCH LAB</span>
+          </div>
+          <div style="display:flex;gap:26px;font:500 12.5px system-ui,sans-serif;color:rgba(35,32,27,.72)"><span>Research</span><span>People</span><span>Publications</span><span style="color:#B4572F">Join</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DARK MODE -->
+    <div style="background:#1C1915;border:1px solid rgba(0,0,0,.4);border-radius:12px;box-shadow:0 1px 3px rgba(35,32,27,.1),0 18px 34px -26px rgba(35,32,27,.5);overflow:hidden">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:15px 20px 0">
+        <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:#D39A78;text-transform:uppercase">Dark mode</span>
+        <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(241,234,219,.4)">paper word · clay staff</span>
+      </div>
+      <div style="padding:50px 30px 40px;display:flex;justify-content:center;margin-top:14px;border-top:1px solid rgba(255,255,255,.06)">
+        <div style="width:242px;height:124px;position:relative">
+          <div style="position:absolute;top:0;left:0;transform:scale(1.05);transform-origin:top left">
+            <div style="position:relative;width:230px;height:118px">
+              <svg width="230" height="118" viewBox="0 0 230 118" style="position:absolute;inset:0;overflow:visible"><g stroke="#D39A78" stroke-width="1.5" opacity=".55"><line x1="4" y1="40" x2="226" y2="40"></line><line x1="4" y1="54" x2="226" y2="54"></line><line x1="4" y1="68" x2="226" y2="68"></line><line x1="4" y1="82" x2="226" y2="82"></line><line x1="4" y1="96" x2="226" y2="96"></line></g><ellipse cx="27" cy="82" rx="7" ry="5" fill="#D39A78" transform="rotate(-20 27 82)"></ellipse><line x1="33.4" y1="81" x2="33.4" y2="45" stroke="#D39A78" stroke-width="2"></line></svg>
+              <div style="position:absolute;left:60px;top:15px;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:80px;color:#F1EADB;letter-spacing:.01em;line-height:1">aria</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:15px 28px;background:#211D18;border-top:1px solid rgba(255,255,255,.07)">
+        <div style="display:flex;align-items:center;gap:15px">
+          <div style="width:79px;height:41px;position:relative;flex:none"><div style="position:absolute;top:0;left:0;transform:scale(0.34);transform-origin:top left"><div style="position:relative;width:230px;height:118px"><svg width="230" height="118" viewBox="0 0 230 118" style="position:absolute;inset:0;overflow:visible"><g stroke="#D39A78" stroke-width="1.5" opacity=".55"><line x1="4" y1="40" x2="226" y2="40"></line><line x1="4" y1="54" x2="226" y2="54"></line><line x1="4" y1="68" x2="226" y2="68"></line><line x1="4" y1="82" x2="226" y2="82"></line><line x1="4" y1="96" x2="226" y2="96"></line></g><ellipse cx="27" cy="82" rx="7" ry="5" fill="#D39A78" transform="rotate(-20 27 82)"></ellipse><line x1="33.4" y1="81" x2="33.4" y2="45" stroke="#D39A78" stroke-width="2"></line></svg><div style="position:absolute;left:60px;top:15px;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:80px;color:#F1EADB;letter-spacing:.01em;line-height:1">aria</div></div></div></div>
+          <div style="width:1px;height:22px;background:rgba(241,234,219,.16)"></div>
+          <span style="font:600 8.5px ui-monospace,Menlo,monospace;letter-spacing:.18em;color:rgba(241,234,219,.45)">RESEARCH LAB</span>
+        </div>
+        <div style="display:flex;gap:26px;font:500 12.5px system-ui,sans-serif;color:rgba(241,234,219,.62)"><span>Research</span><span>People</span><span>Publications</span><span style="color:#E0A87F">Join</span></div>
+      </div>
+    </div>
+
+    <!-- TOKENS -->
+    <div style="background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:12px;box-shadow:0 1px 3px rgba(35,32,27,.06);overflow:hidden;padding:18px 22px;display:flex;flex-wrap:wrap;align-items:center;gap:26px;justify-content:space-between">
+      <div style="display:flex;flex-wrap:wrap;gap:20px">
+        <div style="display:flex;align-items:center;gap:9px"><span style="width:22px;height:22px;border-radius:5px;background:#23201B"></span><div style="display:flex;flex-direction:column"><span style="font:600 10px system-ui;color:#23201B">Ink</span><span style="font:500 9px ui-monospace,Menlo,monospace;color:rgba(35,32,27,.5)">#23201B</span></div></div>
+        <div style="display:flex;align-items:center;gap:9px"><span style="width:22px;height:22px;border-radius:5px;background:#B4572F"></span><div style="display:flex;flex-direction:column"><span style="font:600 10px system-ui;color:#23201B">Rust</span><span style="font:500 9px ui-monospace,Menlo,monospace;color:rgba(35,32,27,.5)">#B4572F</span></div></div>
+        <div style="display:flex;align-items:center;gap:9px"><span style="width:22px;height:22px;border-radius:5px;background:#D39A78"></span><div style="display:flex;flex-direction:column"><span style="font:600 10px system-ui;color:#23201B">Clay</span><span style="font:500 9px ui-monospace,Menlo,monospace;color:rgba(35,32,27,.5)">#D39A78</span></div></div>
+        <div style="display:flex;align-items:center;gap:9px"><span style="width:22px;height:22px;border-radius:5px;background:#F6F1E7;box-shadow:inset 0 0 0 1px rgba(35,32,27,.15)"></span><div style="display:flex;flex-direction:column"><span style="font:600 10px system-ui;color:#23201B">Paper</span><span style="font:500 9px ui-monospace,Menlo,monospace;color:rgba(35,32,27,.5)">#F6F1E7</span></div></div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:3px;text-align:right">
+        <span style="font:600 9px ui-monospace,Menlo,monospace;letter-spacing:.14em;color:#B4572F">MIN SIZE</span>
+        <span style="font:500 11px/1.4 system-ui,sans-serif;color:rgba(35,32,27,.62)">Wordmark 96px digital · 22mm print · Favicon 16px</span>
+      </div>
+    </div>
+
+  </div>
+  <p class="dv-next">Try next: “export the favicon + app icon as PNGs” · “add a stacked (vertical) lockup” · “tighten the clear-space guide” · “letterhead &amp; business-card mock” · “the staff a touch lighter”</p>
+</section>
+<section class="dv-turn" id="t2">
+  <div class="dv-thd">
+    <a class="dv-tid" href="#t2">2</a>
+    <span class="dv-tname">1d, now with a sense of music · four directions</span>
+  </div>
+  <div style="display:flex;align-items:center;gap:14px;margin:0 0 30px;padding:14px 0;border-top:1px solid rgba(35,32,27,.11);border-bottom:1px solid rgba(35,32,27,.11)">
+    <span style="font:400 12.5px/1.55 system-ui,sans-serif;color:rgba(35,32,27,.62);max-width:660px">The <a class="dv-oid" href="#1d" style="text-decoration:none">1d</a> letterform — lowercase italic Cormorant — now carrying real notation. Four ways to make the name sing, in the same ink · rust · paper system.</span>
+  </div>
+  <div class="dv-opts">
+
+    <div class="dv-opt" id="2a" style="animation-delay:.04s">
+      <div class="dv-olabel"><a class="dv-oid" href="#2a">2a</a> On the Staff</div>
+      <div class="dv-card" style="width:500px;background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:10px;box-shadow:0 1px 3px rgba(35,32,27,.07),0 14px 30px -20px rgba(35,32,27,.3);overflow:hidden">
+        <div style="height:212px;display:flex;align-items:center;justify-content:center;background:#F6F1E7">
+          <div style="position:relative;display:flex;align-items:center;justify-content:center">
+            <svg width="300" height="70" viewBox="0 0 300 70" style="position:absolute;left:50%;top:54%;transform:translate(-50%,-50%);overflow:visible">
+              <g stroke="#B4572F" stroke-width="1.4" opacity=".5"><line x1="0" y1="8" x2="300" y2="8"></line><line x1="0" y1="22" x2="300" y2="22"></line><line x1="0" y1="36" x2="300" y2="36"></line><line x1="0" y1="50" x2="300" y2="50"></line><line x1="0" y1="64" x2="300" y2="64"></line></g>
+              <ellipse cx="15" cy="50" rx="6.6" ry="4.7" fill="#B4572F" transform="rotate(-20 15 50)"></ellipse>
+              <line x1="21" y1="49" x2="21" y2="12" stroke="#B4572F" stroke-width="1.8"></line>
+            </svg>
+            <div style="position:relative;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:82px;color:#23201B;letter-spacing:.01em;line-height:1;padding-left:46px">aria</div>
+          </div>
+        </div>
+        <div style="border-top:1px solid rgba(35,32,27,.1);padding:18px 22px 20px;display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px">
+            <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.18em;color:#B4572F;text-transform:uppercase">05 · On the Staff</span>
+            <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">Cormorant · Italic 500</span>
+          </div>
+          <p style="margin:0;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5;color:rgba(35,32,27,.72)">The name written across the staff — ink over rust rules, a single note leading it in. Scholarship set to music.</p>
+          <div style="display:flex;gap:10px;margin-top:2px">
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#FFFFFF;border:1px solid rgba(35,32,27,.12)"><div style="position:relative;display:flex;align-items:center;justify-content:center"><svg width="72" height="22" style="position:absolute;left:50%;top:56%;transform:translate(-50%,-50%);overflow:visible"><g stroke="#000" stroke-width="1" opacity=".4"><line x1="0" y1="4" x2="72" y2="4"></line><line x1="0" y1="11" x2="72" y2="11"></line><line x1="0" y1="18" x2="72" y2="18"></line></g></svg><span style="position:relative;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:21px;color:#000;line-height:1">aria</span></div></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">MONO</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#B4572F"><div style="position:relative;display:flex;align-items:center;justify-content:center"><svg width="72" height="22" style="position:absolute;left:50%;top:56%;transform:translate(-50%,-50%);overflow:visible"><g stroke="#F6F1E7" stroke-width="1" opacity=".55"><line x1="0" y1="4" x2="72" y2="4"></line><line x1="0" y1="11" x2="72" y2="11"></line><line x1="0" y1="18" x2="72" y2="18"></line></g></svg><span style="position:relative;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:21px;color:#F6F1E7;line-height:1">aria</span></div></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">REVERSED</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#26221C"><div style="position:relative;display:flex;align-items:center;justify-content:center"><svg width="72" height="22" style="position:absolute;left:50%;top:56%;transform:translate(-50%,-50%);overflow:visible"><g stroke="#D39A78" stroke-width="1" opacity=".7"><line x1="0" y1="4" x2="72" y2="4"></line><line x1="0" y1="11" x2="72" y2="11"></line><line x1="0" y1="18" x2="72" y2="18"></line></g></svg><span style="position:relative;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:21px;color:#EFE7D9;line-height:1">aria</span></div></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">ON DARK</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dv-opt" id="2b" style="animation-delay:.12s">
+      <div class="dv-olabel"><a class="dv-oid" href="#2b">2b</a> Cantabile</div>
+      <div class="dv-card" style="width:500px;background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:10px;box-shadow:0 1px 3px rgba(35,32,27,.07),0 14px 30px -20px rgba(35,32,27,.3);overflow:hidden">
+        <div style="height:212px;display:flex;align-items:center;justify-content:center;background:#F6F1E7">
+          <div style="display:flex;align-items:flex-start;gap:13px">
+            <div style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:98px;color:#B4572F;line-height:.9;letter-spacing:.005em">ar<span style="position:relative;display:inline-block">i<svg width="20" height="40" viewBox="0 0 20 40" style="position:absolute;left:3px;top:-19px;overflow:visible"><ellipse cx="8" cy="32" rx="5.6" ry="4" fill="#B4572F" transform="rotate(-20 8 32)"></ellipse><line x1="12.9" y1="31" x2="12.9" y2="5" stroke="#B4572F" stroke-width="1.9"></line></svg></span>a</div>
+            <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:19px;color:#B98A66;margin-top:22px;white-space:nowrap">cantabile</span>
+          </div>
+        </div>
+        <div style="border-top:1px solid rgba(35,32,27,.1);padding:18px 22px 20px;display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px">
+            <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.18em;color:#B4572F;text-transform:uppercase">06 · Cantabile</span>
+            <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">Cormorant · Italic 500</span>
+          </div>
+          <p style="margin:0;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5;color:rgba(35,32,27,.72)">1d, refined: the tittle of the <em>i</em> lifts into a single note. The mark <em>is</em> the aria — sung, not spoken.</p>
+          <div style="display:flex;gap:10px;margin-top:2px">
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#FFFFFF;border:1px solid rgba(35,32,27,.12)"><div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:24px;color:#000;line-height:1">ar<span style="position:relative;display:inline-block">i<svg width="10" height="18" viewBox="0 0 10 18" style="position:absolute;left:0.5px;top:-8px;overflow:visible"><ellipse cx="4" cy="13.5" rx="2.9" ry="2.1" fill="#000" transform="rotate(-20 4 13.5)"></ellipse><line x1="6.6" y1="13" x2="6.6" y2="2.5" stroke="#000" stroke-width="1.1"></line></svg></span>a</div></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">MONO</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#B4572F"><div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:24px;color:#F6F1E7;line-height:1">ar<span style="position:relative;display:inline-block">i<svg width="10" height="18" viewBox="0 0 10 18" style="position:absolute;left:0.5px;top:-8px;overflow:visible"><ellipse cx="4" cy="13.5" rx="2.9" ry="2.1" fill="#F6F1E7" transform="rotate(-20 4 13.5)"></ellipse><line x1="6.6" y1="13" x2="6.6" y2="2.5" stroke="#F6F1E7" stroke-width="1.1"></line></svg></span>a</div></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">REVERSED</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#26221C"><div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:24px;color:#EFE7D9;line-height:1">ar<span style="position:relative;display:inline-block">i<svg width="10" height="18" viewBox="0 0 10 18" style="position:absolute;left:0.5px;top:-8px;overflow:visible"><ellipse cx="4" cy="13.5" rx="2.9" ry="2.1" fill="#D98A5E" transform="rotate(-20 4 13.5)"></ellipse><line x1="6.6" y1="13" x2="6.6" y2="2.5" stroke="#D98A5E" stroke-width="1.1"></line></svg></span>a</div></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">ON DARK</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dv-opt" id="2c" style="animation-delay:.2s">
+      <div class="dv-olabel"><a class="dv-oid" href="#2c">2c</a> Crescendo</div>
+      <div class="dv-card" style="width:500px;background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:10px;box-shadow:0 1px 3px rgba(35,32,27,.07),0 14px 30px -20px rgba(35,32,27,.3);overflow:hidden">
+        <div style="height:212px;display:flex;align-items:center;justify-content:center;background:#F6F1E7">
+          <div style="display:flex;flex-direction:column;align-items:center;gap:9px">
+            <div style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:88px;color:#B4572F;line-height:.9;letter-spacing:.02em">aria</div>
+            <svg width="238" height="18" viewBox="0 0 238 18" style="overflow:visible"><line x1="3" y1="9" x2="235" y2="2" stroke="#B4572F" stroke-width="2" stroke-linecap="round"></line><line x1="3" y1="9" x2="235" y2="16" stroke="#B4572F" stroke-width="2" stroke-linecap="round"></line></svg>
+          </div>
+        </div>
+        <div style="border-top:1px solid rgba(35,32,27,.1);padding:18px 22px 20px;display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px">
+            <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.18em;color:#B4572F;text-transform:uppercase">07 · Crescendo</span>
+            <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">Cormorant · Italic 500</span>
+          </div>
+          <p style="margin:0;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5;color:rgba(35,32,27,.72)">A crescendo hairpin opens beneath the word — the swell toward something greater. The dynamic, and the mission.</p>
+          <div style="display:flex;gap:10px;margin-top:2px">
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;background:#FFFFFF;border:1px solid rgba(35,32,27,.12)"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:21px;color:#000;line-height:1">aria</span><svg width="58" height="8" viewBox="0 0 58 8" style="overflow:visible"><line x1="1" y1="4" x2="57" y2="1" stroke="#000" stroke-width="1.3" stroke-linecap="round"></line><line x1="1" y1="4" x2="57" y2="7" stroke="#000" stroke-width="1.3" stroke-linecap="round"></line></svg></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">MONO</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;background:#B4572F"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:21px;color:#F6F1E7;line-height:1">aria</span><svg width="58" height="8" viewBox="0 0 58 8" style="overflow:visible"><line x1="1" y1="4" x2="57" y2="1" stroke="#F6F1E7" stroke-width="1.3" stroke-linecap="round"></line><line x1="1" y1="4" x2="57" y2="7" stroke="#F6F1E7" stroke-width="1.3" stroke-linecap="round"></line></svg></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">REVERSED</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;background:#26221C"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:21px;color:#EFE7D9;line-height:1">aria</span><svg width="58" height="8" viewBox="0 0 58 8" style="overflow:visible"><line x1="1" y1="4" x2="57" y2="1" stroke="#D39A78" stroke-width="1.3" stroke-linecap="round"></line><line x1="1" y1="4" x2="57" y2="7" stroke="#D39A78" stroke-width="1.3" stroke-linecap="round"></line></svg></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">ON DARK</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dv-opt" id="2d" style="animation-delay:.28s">
+      <div class="dv-olabel"><a class="dv-oid" href="#2d">2d</a> Con Clef</div>
+      <div class="dv-card" style="width:500px;background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:10px;box-shadow:0 1px 3px rgba(35,32,27,.07),0 14px 30px -20px rgba(35,32,27,.3);overflow:hidden">
+        <div style="height:212px;display:flex;align-items:center;justify-content:center;background:#F6F1E7">
+          <div style="display:flex;align-items:center;gap:20px">
+            <span style="font-family:'Noto Music',serif;font-size:124px;line-height:1;color:#B4572F;margin-top:-6px">&#x1D11E;</span>
+            <div style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:90px;color:#23201B;line-height:.9;letter-spacing:.01em">aria</div>
+          </div>
+        </div>
+        <div style="border-top:1px solid rgba(35,32,27,.1);padding:18px 22px 20px;display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px">
+            <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.18em;color:#B4572F;text-transform:uppercase">08 · Con Clef</span>
+            <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">Noto Music + Cormorant</span>
+          </div>
+          <p style="margin:0;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5;color:rgba(35,32,27,.72)">The treble clef sets the key, then the name sings. The clef alone works as a compact avatar and favicon.</p>
+          <div style="display:flex;gap:10px;margin-top:2px">
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;gap:7px;background:#FFFFFF;border:1px solid rgba(35,32,27,.12)"><span style="font-family:'Noto Music',serif;font-size:32px;line-height:1;color:#000;margin-top:-2px">&#x1D11E;</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:22px;color:#000;line-height:1">aria</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">MONO</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;gap:7px;background:#B4572F"><span style="font-family:'Noto Music',serif;font-size:32px;line-height:1;color:#F6F1E7;margin-top:-2px">&#x1D11E;</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:22px;color:#F6F1E7;line-height:1">aria</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">REVERSED</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;gap:7px;background:#26221C"><span style="font-family:'Noto Music',serif;font-size:32px;line-height:1;color:#D39A78;margin-top:-2px">&#x1D11E;</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:22px;color:#EFE7D9;line-height:1">aria</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">ON DARK</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <p class="dv-next">Try next: “take <a class="dv-oid" href="#2b">2b</a> into a full package — favicon, horizontal lockup, dark mode” · “<a class="dv-oid" href="#2a">2a</a> but the word in rust like <a class="dv-oid" href="#1d">1d</a>” · “make the <a class="dv-oid" href="#2d">2d</a> clef a bespoke drawn mark” · “combine <a class="dv-oid" href="#2b">2b</a>’s note with <a class="dv-oid" href="#2c">2c</a>’s crescendo”</p>
+</section>
+<section class="dv-turn" id="t1">
+  <div class="dv-thd">
+    <a class="dv-tid" href="#t1">1</a>
+    <span class="dv-tname">ARIA · four wordmark directions</span>
+  </div>
+  <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;margin:0 0 30px;padding:15px 0;border-top:1px solid rgba(35,32,27,.11);border-bottom:1px solid rgba(35,32,27,.11)">
+    <span style="font:400 12.5px/1.5 system-ui,sans-serif;color:rgba(35,32,27,.62);max-width:540px">Warm rust on paper, warm ink for weight · high-contrast serifs · a quiet operatic gesture, never literal. Each mark shown in one-colour mono, reversed, and on dark.</span>
+    <div style="display:flex;flex-wrap:wrap;gap:18px">
+      <div style="display:flex;align-items:center;gap:7px"><span style="width:13px;height:13px;border-radius:50%;background:#F6F1E7;box-shadow:inset 0 0 0 1px rgba(35,32,27,.2)"></span><span style="font:600 9px ui-monospace,Menlo,monospace;letter-spacing:.1em;color:rgba(35,32,27,.55)">PAPER F6F1E7</span></div>
+      <div style="display:flex;align-items:center;gap:7px"><span style="width:13px;height:13px;border-radius:50%;background:#23201B"></span><span style="font:600 9px ui-monospace,Menlo,monospace;letter-spacing:.1em;color:rgba(35,32,27,.55)">INK 23201B</span></div>
+      <div style="display:flex;align-items:center;gap:7px"><span style="width:13px;height:13px;border-radius:50%;background:#B4572F"></span><span style="font:600 9px ui-monospace,Menlo,monospace;letter-spacing:.1em;color:rgba(35,32,27,.55)">RUST B4572F</span></div>
+      <div style="display:flex;align-items:center;gap:7px"><span style="width:13px;height:13px;border-radius:50%;background:#D39A78"></span><span style="font:600 9px ui-monospace,Menlo,monospace;letter-spacing:.1em;color:rgba(35,32,27,.55)">CLAY D39A78</span></div>
+    </div>
+  </div>
+  <div class="dv-opts">
+
+    <div class="dv-opt" id="1a" style="animation-delay:.04s">
+      <div class="dv-olabel"><a class="dv-oid" href="#1a">1a</a> Fermata</div>
+      <div class="dv-card" style="width:500px;background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:10px;box-shadow:0 1px 3px rgba(35,32,27,.07),0 14px 30px -20px rgba(35,32,27,.3);overflow:hidden">
+        <div style="height:212px;display:flex;align-items:center;justify-content:center;background:#F6F1E7">
+          <div style="display:flex;flex-direction:column;align-items:center;gap:7px">
+            <svg width="52" height="28" viewBox="0 0 52 28" fill="none" style="display:block;overflow:visible">
+              <path d="M8 22 A 18 15 0 0 1 44 22" stroke="#B4572F" stroke-width="2.2" stroke-linecap="round" fill="none"></path>
+              <circle cx="26" cy="14.5" r="2.7" fill="#B4572F"></circle>
+            </svg>
+            <div style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:86px;letter-spacing:.14em;color:#23201B;line-height:1;padding-left:.14em">ARIA</div>
+          </div>
+        </div>
+        <div style="border-top:1px solid rgba(35,32,27,.1);padding:18px 22px 20px;display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px">
+            <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.18em;color:#B4572F;text-transform:uppercase">01 · Fermata</span>
+            <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">Cormorant Garamond · 600</span>
+          </div>
+          <p style="margin:0;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5;color:rgba(35,32,27,.72)">The fermata — the sign that holds a note beyond its measure. The standout moment, sustained.</p>
+          <div style="display:flex;gap:10px;margin-top:2px">
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#FFFFFF;border:1px solid rgba(35,32,27,.12)"><span style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:18px;letter-spacing:.14em;color:#000;padding-left:.14em">ARIA</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">MONO</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#B4572F"><span style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:18px;letter-spacing:.14em;color:#F6F1E7;padding-left:.14em">ARIA</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">REVERSED</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#26221C"><span style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:18px;letter-spacing:.14em;color:#EFE7D9;padding-left:.14em">ARIA</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">ON DARK</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dv-opt" id="1b" style="animation-delay:.12s">
+      <div class="dv-olabel"><a class="dv-oid" href="#1b">1b</a> Legato</div>
+      <div class="dv-card" style="width:500px;background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:10px;box-shadow:0 1px 3px rgba(35,32,27,.07),0 14px 30px -20px rgba(35,32,27,.3);overflow:hidden">
+        <div style="height:212px;display:flex;align-items:center;justify-content:center;background:#F6F1E7">
+          <div style="display:flex;flex-direction:column;align-items:center">
+            <div style="font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:80px;letter-spacing:.1em;color:#23201B;line-height:1;padding-left:.1em">ARIA</div>
+            <svg width="300" height="30" viewBox="0 0 300 30" fill="none" style="display:block;margin-top:-1px">
+              <path d="M12 8 Q 150 38 288 8" stroke="#B4572F" stroke-width="2.4" stroke-linecap="round" fill="none"></path>
+            </svg>
+          </div>
+        </div>
+        <div style="border-top:1px solid rgba(35,32,27,.1);padding:18px 22px 20px;display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px">
+            <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.18em;color:#B4572F;text-transform:uppercase">02 · Legato</span>
+            <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">Newsreader · 500</span>
+          </div>
+          <p style="margin:0;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5;color:rgba(35,32,27,.72)">A slur binds the phrase into one breath — the voice carried unbroken across the name.</p>
+          <div style="display:flex;gap:10px;margin-top:2px">
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#FFFFFF;border:1px solid rgba(35,32,27,.12)"><span style="font-family:'Newsreader',serif;font-weight:500;font-size:18px;letter-spacing:.1em;color:#000;padding-left:.1em">ARIA</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">MONO</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#B4572F"><span style="font-family:'Newsreader',serif;font-weight:500;font-size:18px;letter-spacing:.1em;color:#F6F1E7;padding-left:.1em">ARIA</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">REVERSED</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#26221C"><span style="font-family:'Newsreader',serif;font-weight:500;font-size:18px;letter-spacing:.1em;color:#EFE7D9;padding-left:.1em">ARIA</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">ON DARK</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dv-opt" id="1c" style="animation-delay:.2s">
+      <div class="dv-olabel"><a class="dv-oid" href="#1c">1c</a> The Soloist</div>
+      <div class="dv-card" style="width:500px;background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:10px;box-shadow:0 1px 3px rgba(35,32,27,.07),0 14px 30px -20px rgba(35,32,27,.3);overflow:hidden">
+        <div style="height:212px;display:flex;align-items:center;justify-content:center;background:#F6F1E7">
+          <div style="font-family:'Playfair Display',Georgia,serif;font-weight:600;font-size:80px;letter-spacing:.12em;color:#23201B;line-height:1;white-space:nowrap;padding-left:.12em">AR<span style="position:relative;color:#B4572F">I<span style="position:absolute;left:40%;top:-.3em;transform:translateX(-50%);line-height:0"><svg width="22" height="18" viewBox="0 0 22 18" fill="none" style="display:block"><line x1="5" y1="15" x2="17" y2="4" stroke="#B4572F" stroke-width="3" stroke-linecap="round"></line></svg></span></span>A</div>
+        </div>
+        <div style="border-top:1px solid rgba(35,32,27,.1);padding:18px 22px 20px;display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px">
+            <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.18em;color:#B4572F;text-transform:uppercase">03 · The Soloist</span>
+            <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">Playfair Display · 600</span>
+          </div>
+          <p style="margin:0;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5;color:rgba(35,32,27,.72)">One letter steps from the line — the virtuoso solo, a single voice out front.</p>
+          <div style="display:flex;gap:10px;margin-top:2px">
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#FFFFFF;border:1px solid rgba(35,32,27,.12)"><span style="font-family:'Playfair Display',serif;font-weight:600;font-size:18px;letter-spacing:.12em;color:#000;padding-left:.12em">ARIA</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">MONO</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#B4572F"><span style="font-family:'Playfair Display',serif;font-weight:600;font-size:18px;letter-spacing:.12em;color:#F6F1E7;padding-left:.12em">ARIA</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">REVERSED</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#26221C"><span style="font-family:'Playfair Display',serif;font-weight:600;font-size:18px;letter-spacing:.12em;color:#EFE7D9;padding-left:.12em">AR<span style="color:#D98A5E">I</span>A</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">ON DARK</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dv-opt" id="1d" style="animation-delay:.28s">
+      <div class="dv-olabel"><a class="dv-oid" href="#1d">1d</a> In the Score</div>
+      <div class="dv-card" style="width:500px;background:#F6F1E7;border:1px solid rgba(35,32,27,.1);border-radius:10px;box-shadow:0 1px 3px rgba(35,32,27,.07),0 14px 30px -20px rgba(35,32,27,.3);overflow:hidden">
+        <div style="height:212px;display:flex;align-items:center;justify-content:center;background:#F6F1E7">
+          <div style="display:flex;align-items:flex-start;gap:12px">
+            <div style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:98px;letter-spacing:.005em;color:#B4572F;line-height:.9">aria</div>
+            <span style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:19px;color:#B98A66;margin-top:22px;white-space:nowrap">cantabile</span>
+          </div>
+        </div>
+        <div style="border-top:1px solid rgba(35,32,27,.1);padding:18px 22px 20px;display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px">
+            <span style="font:600 10px ui-monospace,Menlo,monospace;letter-spacing:.18em;color:#B4572F;text-transform:uppercase">04 · In the Score</span>
+            <span style="font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.03em;color:rgba(35,32,27,.5)">Cormorant Garamond · Italic 500</span>
+          </div>
+          <p style="margin:0;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5;color:rgba(35,32,27,.72)">Set as the marking appears on the page — the Italian term, in the composer's own italic.</p>
+          <div style="display:flex;gap:10px;margin-top:2px">
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#FFFFFF;border:1px solid rgba(35,32,27,.12)"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:24px;color:#000">aria</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">MONO</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#B4572F"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:24px;color:#F6F1E7">aria</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">REVERSED</span></div>
+            <div style="display:flex;flex-direction:column;gap:6px;flex:1"><div style="height:50px;border-radius:6px;display:flex;align-items:center;justify-content:center;background:#26221C"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:24px;color:#EFE7D9">aria</span></div><span style="font:600 8px ui-monospace,Menlo,monospace;letter-spacing:.16em;color:rgba(35,32,27,.5)">ON DARK</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <p class="dv-next">Try next: “build <a class="dv-oid" href="#1a">1a</a> into a full package — favicon, horizontal lockup, dark mode” · “more like <a class="dv-oid" href="#1c">1c</a> but set in the Cormorant from <a class="dv-oid" href="#1a">1a</a>” · “work the fermata into a letterform” · “four new directions”</p>
+</section>
+</x-dc>
+</body>
+</html>

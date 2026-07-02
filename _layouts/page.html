@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">{{ site.title }} · {{ site.lab_label }}</p>
+    <h1 class="display">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="lede">{{ page.subtitle }}</p>{% endif %}
+  </div>
+</section>
+<div class="wrap page-body">
+  {{ content }}
+</div>

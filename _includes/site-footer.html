@@ -1,0 +1,16 @@
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <div class="foot-brand">
+      {% include wordmark.html scale="0.4" %}
+      <p class="foot-tag">{{ site.tagline }}</p>
+    </div>
+    <div class="foot-meta">
+      <p>{{ site.institution }}</p>
+      <p class="iconrow foot-icons">
+        {% if site.social.github %}{% include icon.html name="github" href=site.social.github label="GitHub" %}{% endif %}
+        {% if site.email %}{% include icon.html name="mail" href=site.email prefix="mailto:" label="Email" %}{% endif %}
+      </p>
+      <p class="foot-copy">© {{ 'now' | date: "%Y" }} {{ site.title }} {{ site.lab_label }}</p>
+    </div>
+  </div>
+</footer>

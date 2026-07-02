@@ -1,0 +1,9 @@
+{%- comment -%}
+  A single round icon link. Usage:
+  {% include icon.html name="mail" href=person.email prefix="mailto:" label="Email" %}
+{%- endcomment -%}
+{%- assign href = include.href -%}
+{%- if include.prefix -%}{%- assign href = include.prefix | append: include.href -%}{%- endif -%}
+<a class="ic" href="{{ href }}" title="{{ include.label }}" aria-label="{{ include.label }}"{% unless include.prefix %} target="_blank" rel="noopener"{% endunless %}>
+  <svg class="ic-svg" viewBox="0 0 24 24" aria-hidden="true"><use href="#ic-{{ include.name }}"></use></svg>
+</a>

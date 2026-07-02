@@ -1,0 +1,35 @@
+title: ARIA
+tagline: "Agency · Reasoning · Intelligence · Autonomy"
+lab_label: Research Lab
+institution: Peking University
+description: >-
+  ARIA is a research lab at Peking University working on Agency, Reasoning,
+  Intelligence, and Autonomy — building agents that act, reason, and understand.
+url: "https://aria-ai-lab.github.io"
+baseurl: ""
+email: "wellyzhangc@gmail.com"
+
+nav:
+  - name: Home
+    url: /
+  - name: People
+    url: /people/
+  - name: Publications
+    url: /publications/
+
+social:
+  github: https://github.com/aria-ai-lab
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+exclude:
+  - "ARIA Logo.html"
+  - README.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .claude

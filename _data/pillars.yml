@@ -1,0 +1,21 @@
+# The four directions that spell ARIA.
+- letter: A
+  name: Agency
+  blurb: >-
+    Agents that act autonomously under a value system of their own — making
+    choices, taking responsibility, and surviving in an open world.
+- letter: R
+  name: Reasoning
+  blurb: >-
+    Models that reason efficiently: drawing sound conclusions from little,
+    thinking only as hard as a problem demands.
+- letter: I
+  name: Intelligence
+  blurb: >-
+    Systems that reach super-human performance on specific tasks, turning
+    narrow mastery into dependable capability.
+- letter: A
+  name: Autonomy
+  blurb: >-
+    Robot systems that weave our research directions together into embodied
+    agents that operate on their own in the physical world.

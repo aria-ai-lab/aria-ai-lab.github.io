@@ -1,0 +1,82 @@
+---
+layout: default
+permalink: /
+---
+
+<section class="hero">
+  <div class="wrap">
+    {% include wordmark.html scale="2.1" %}
+    <p class="hero-tagline">{{ site.tagline }}</p>
+    <p class="hero-mission">
+      A research lab building agents that <em>act</em>, <em>reason</em>,
+      and <em>understand</em> — capable yet grounded in human values.
+    </p>
+    <p class="hero-sub">
+      ARIA is a research lab at {{ site.institution }}. We pursue four intertwined
+      directions — Agency, Reasoning, Intelligence, and Autonomy — toward
+      machines that are general, dependable, and their own.
+    </p>
+  </div>
+</section>
+
+<section class="section" id="research">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Our name is our program</p>
+      <h2 class="display">Four directions, one lab.</h2>
+      <p>ARIA spells out the questions we care about. Each letter is a research
+        agenda; together they describe an agent that lives, thinks, and acts in
+        the world.</p>
+    </div>
+    <div class="pillars">
+      {% for p in site.data.pillars %}
+      <div class="pillar">
+        <div class="pillar-letter">{{ p.letter }}</div>
+        <h3 class="pillar-name">{{ p.name }}</h3>
+        <p class="pillar-blurb">{{ p.blurb }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="banner" id="highlights">
+  <div class="wrap">
+    <p class="eyebrow">From the lab</p>
+  </div>
+  <div class="ticker">
+    <div class="ticker-track">
+      {% for slide in site.data.banner %}
+      <figure class="ticker-card">
+        <div class="ticker-img" style="background-image:url('{{ slide.image | default: '/assets/img/placeholder.svg' | relative_url }}')"></div>
+        <figcaption>{{ slide.text }}</figcaption>
+      </figure>
+      {% endfor %}
+      {%- comment -%} Duplicate for a seamless loop. {%- endcomment -%}
+      {% for slide in site.data.banner %}
+      <figure class="ticker-card" aria-hidden="true">
+        <div class="ticker-img" style="background-image:url('{{ slide.image | default: '/assets/img/placeholder.svg' | relative_url }}')"></div>
+        <figcaption>{{ slide.text }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="news">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Latest news</p>
+      <h2 class="display">What's new.</h2>
+    </div>
+    <div class="news-list">
+      {% assign items = site.data.news | sort: 'date' | reverse %}
+      {% for item in items %}
+      <div class="news-item">
+        <time class="news-date" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+        <p class="news-text">{{ item.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
