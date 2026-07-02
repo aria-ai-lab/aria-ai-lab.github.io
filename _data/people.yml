@@ -7,14 +7,103 @@
 faculty:
   - name: Chi Zhang
     role: Principal Investigator · Assistant Professor
-    affiliation: Peking University
+    affiliation: School of Intelligence Science and Technology, Peking University
     avatar: /assets/img/people/chi-zhang.jpg
     email: wellyzhangc@gmail.com
     homepage: https://wellyzhang.github.io
     github: https://github.com/WellyZhang
+    scholar: https://scholar.google.com/citations?user=NyjV-40AAAAJ&hl=en
 
-technical_staff: []
+technical_staff:
+  - name: Zhancun Mu
+    role: PhD Student
+    affiliation: School of Intelligence Science and Technology, Peking University
+    avatar: https://muzhancun.github.io/_astro/avatar.BAY1T1_S_Z57GSj.webp
+    email: muzhancun@pku.edu.cn
+    homepage: https://muzhancun.github.io/
+    github: https://github.com/muzhancun
+    scholar: https://scholar.google.com/citations?user=your-google-scholar-id
+  - name: Xinyue Zheng
+    role: PhD Student
+    affiliation: School of Intelligence Science and Technology, Peking University
+    # avatar:
+    email: xyzheng25@stu.pku.edu.cn
+    homepage: https://openreview.net/profile?id=~Xinyue_Zheng2
+    scholar: https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=BTtwjjwAAAAJ
+  - name: Yongqian Peng
+    role: Master Student
+    affiliation: School of Intelligence Science and Technology, Peking University
+    avatar: https://pku.ai/author/yongqian-peng/avatar_hu9667263228146536589.png
+    email: 2100017731@stu.pku.edu.cn
+    homepage: https://ppyyqq.github.io/
+    github: https://github.com/PPYYQQ
+  - name: Hengli Li
+    role: PhD Student (with Song-Chun Zhu)
+    affiliation: School of Intelligence Science and Technology, Peking University
+    avatar: https://pku.vision/author/hengli-li/avatar_hu2ebf9674ec6abbf8ef209f42091fcd88_170757_270x270_fill_q75_lanczos_center.jpg
+    email: 2000017754@stu.pku.edu.cn
+    homepage: https://openreview.net/profile?id=~Hengli_Li1
+    github: https://github.com/Henry839
+    scholar: https://scholar.google.com/citations?user=K7gsqkMAAAAJ&hl=en
+  - name: Manjie Xu
+    role: PhD Student (with Yixin Zhu)
+    affiliation: School of Intelligence Science and Technology, Peking University
+    avatar: https://pku.ai/author/manjie-xu/avatar_hu13488630197018120009.jpg
+    email: manjietsu@gmail.com
+    homepage: https://ariesssxu.github.io/
+    github: https://github.com/ariesssxu
+  - name: Shiqian Li
+    role: PhD Student (with Yixin Zhu)
+    affiliation: School of Intelligence Science and Technology, Peking University
+    avatar: https://pku.ai/author/shiqian-li/avatar_hu15528083623337767467.jpg
+    email: shiqianli@stu.pku.edu.cn
+    homepage: https://lishiqianhugh.github.io/
+    github: https://github.com/lishiqianhugh
+  - name: Xinyi Yang
+    role: PhD Student (with Yixin Zhu)
+    affiliation: School of Intelligence Science and Technology, Peking University
+    avatar: https://pku.ai/author/xinyi-yang/avatar_hu3661216852191193537.jpeg
+    email: xy-yang21@mails.tsinghua.edu.cn
+    homepage: https://yyxxyy574.github.io/xinyiyang.github.io/
+    github: https://github.com/yyxxyy574
+  - name: Yuxi Ma
+    role: PhD Student (with Yixin Zhu)
+    affiliation: School of Intelligence Science and Technology, Peking University
+    avatar: https://mayuxi.com/wp-content/uploads/2023/02/IMG_2297-1024x1024.jpg
+    email: mayuxi987@gmail.com
+    homepage: https://mayuxi.com/
+    scholar: https://scholar.google.com/citations?user=8D0vw-QAAAAJ&hl=en
 
 interns: []
 
-collaborators: []
+collaborators:
+  - name: Song-Chun Zhu
+    role: Chair Professor
+    affiliation: School of Intelligence Science and Technology, Peking University
+    avatar: https://zhusongchun.net/assets/zhu2x-M9GD8Bj6.png
+    email: s.c.zhu@pku.edu.cn
+    homepage: https://zhusongchun.net/
+    scholar: https://scholar.google.com/citations?user=Al8dyb4AAAAJ&hl=en
+  - name: Yixin Zhu
+    role: Assistant Professor
+    affiliation: School of Psychological and Cognitive Sciences, Peking University
+    avatar: https://yzhu.io/authors/yixin-zhu/avatar_hu_f0533b1c1e46729d.jpg
+    email: yixin.zhu@pku.edu.cn
+    github: https://github.com/xiaozhuchacha
+    homepage: https://yzhu.io/
+    scholar: https://scholar.google.com/citations?user=qG9l6JEAAAAJ&hl=en
+  - name: Guangyuan Jiang
+    role: PhD Student
+    affiliation: Massachusetts Institute of Technology
+    avatar: https://jiang.gy/assets/img/guangyuan.jpg
+    email: jianggy@mit.edu
+    github: https://github.com/jianggy
+    homepage: https://jiang.gy/
+    scholar: https://scholar.google.com/citations?user=3L79mEAAAAAJ
+  - name: Bo Dai
+    role: Research Scientist
+    affiliation: Beijing Institute for General Artificial Intelligence
+    avatar: https://pku.ai/author/bo-dai/avatar_hu10505317016469809054.jpg
+    email: daibo@bigai.ai
+    homepage: https://openreview.net/profile?id=~Bo_Dai5
+    scholar: https://scholar.google.com/citations?user=y-Mz7PwAAAAJ&hl=en

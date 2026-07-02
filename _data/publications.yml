@@ -2,15 +2,14 @@
 #   title, authors, venue, year, teaser
 #   image: path under /assets/img/pubs/ (teaser figure; optional)
 #   links: any of pdf, supplementary, poster, project, dataset, code (all optional)
-- title: A Placeholder Paper Title
-  authors: First Author, Second Author, Chi Zhang
-  venue: Conference on Neural Information Processing Systems (NeurIPS)
+- title: Proposing and solving olympiad geometry with guided tree search
+  authors: Chi Zhang, Jiajun Song, Siyu Li, Yitao Liang, Yuxi Ma, Wei Wang, Yixin Zhu, Song-Chun Zhu
+  venue: Nature Machine Intelligence, Jan Issue, 2026
   year: 2026
   teaser: >-
-    A one-line description of the paper — swap this entry for real work as the
-    lab publishes. Icons below appear only when the matching link is filled in.
-  image: /assets/img/placeholder.svg
+    Nature Machine Intelligence Jan 2026 cover: Acing olympiad geometry problems with neurosymbolic AI.
+  image: https://media.springernature.com/w440/springer-static/cover-hires/journal/42256/8/1?as=webp&q=95
   links:
-    pdf: "#"
-    project: "#"
-    code: "#"
+    pdf: https://www.nature.com/articles/s42256-025-01164-x
+    # project: "#"
+    code: https://github.com/bigai-ai/tong-geometry
