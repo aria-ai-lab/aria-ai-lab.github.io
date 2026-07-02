@@ -579,7 +579,10 @@ img { max-width: 100%; display: block; }
 /* ---------- Responsive ---------------------------------------------------- */
 
 @media (max-width: 720px) {
-  .brand-div, .brand-tag { display: none; }
+  /* Nav brand mirrors the desktop lockup (wordmark + divider + label + tagline). */
+  .hero { padding: 64px 20px 58px; }
+  /* Override the inline --wm-scale set by the include (inline beats normal rules). */
+  .hero .wm { --wm-scale: 1.45 !important; }
   .nav-toggle {
     display: inline-flex;
     flex-direction: column;
@@ -626,6 +629,13 @@ img { max-width: 100%; display: block; }
   .foot-inner { flex-direction: column; align-items: flex-start; }
   .foot-meta { text-align: left; }
   .foot-icons { justify-content: flex-start; }
+}
+
+@media (max-width: 400px) {
+  .hero .wm { --wm-scale: 1.15 !important; }
+  /* Keep the full brand lockup from overflowing the narrowest phones. */
+  .brand { gap: 10px; }
+  .brand-tag { font-size: 12px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

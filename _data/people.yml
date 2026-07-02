@@ -26,10 +26,11 @@ technical_staff:
   - name: Xinyue Zheng
     role: PhD Student
     affiliation: School of Intelligence Science and Technology, Peking University
-    # avatar:
-    email: xyzheng25@stu.pku.edu.cn
-    homepage: https://openreview.net/profile?id=~Xinyue_Zheng2
-    scholar: https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=BTtwjjwAAAAJ
+    avatar: https://grandsmile.github.io/media/authors/me_hu_6208515e581f8ef5.jpg
+    email: zhengxinyue1204@gmail.com
+    homepage: https://grandsmile.github.io/
+    github: https://github.com/grandsmile
+    scholar: https://scholar.google.com/citations?user=BTtwjjwAAAAJ
   - name: Yongqian Peng
     role: Master Student
     affiliation: School of Intelligence Science and Technology, Peking University
