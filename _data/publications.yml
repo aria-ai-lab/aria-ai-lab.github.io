@@ -1,15 +1,243 @@
-# Publications, newest first. Fields:
+# Publications, newest first (file order is preserved in rendering, so keep
+# entries grouped by descending year). Fields:
 #   title, authors, venue, year, teaser
 #   image: path under /assets/img/pubs/ (teaser figure; optional)
-#   links: any of pdf, supplementary, poster, project, dataset, code (all optional)
-- title: Proposing and solving olympiad geometry with guided tree search
-  authors: Chi Zhang, Jiajun Song, Siyu Li, Yitao Liang, Yuxi Ma, Wei Wang, Yixin Zhu, Song-Chun Zhu
-  venue: Nature Machine Intelligence, Jan Issue, 2026
+#   links: any of pdf, supplementary, poster, slides, video, project, dataset, code (all optional)
+#   media: optional list of press coverage, each as { label, url }
+# Equal contribution is marked with a trailing * on the author name.
+
+# ---------------------------------------------------------------- 2026 -------
+- title: "NarrativeLoom: Enhancing Creative Storytelling through Multi-Persona Collaborative Improvisation"
+  authors: "Yuxi Ma, Yongqian Peng, Fengyuan Yang, Siyu Zha, Chi Zhang, Zixia Jia, Zilong Zheng, Yixin Zhu"
+  venue: "CHI 2026"
+  teaser: "LLM personas that improvise together, riffing off one another to help people co-write richer, more surprising stories."
   year: 2026
-  teaser: >-
-    Nature Machine Intelligence Jan 2026 cover: Acing olympiad geometry problems with neurosymbolic AI.
-  image: https://media.springernature.com/w440/springer-static/cover-hires/journal/42256/8/1?as=webp&q=95
+  image: /assets/img/pubs/narrativeloom.webp
+  links:
+    pdf: https://yzhu.io/publication/creativity2026chi/paper.pdf
+    video: https://vimeo.com/1095556765
+    project: https://ppyyqq.github.io/narrativeloom/
+
+- title: "Learning physics-grounded 4D dynamics with neural gaussian force fields"
+  authors: "Shiqian Li, Ruihong Shen, Junfeng Ni, Chang Pan, Chi Zhang, Yixin Zhu"
+  venue: "ICLR 2026"
+  teaser: "Attaches learned force fields to Gaussian particles to predict physically grounded 4D scene dynamics, from collisions to deformation."
+  year: 2026
+  image: /assets/img/pubs/neural-gaussian-force-field.webp
+  links:
+    pdf: https://yzhu.io/publication/physics2026iclr/paper.pdf
+    code: https://github.com/lishiqianhugh/NeuralGaussianForceField
+    dataset: https://huggingface.co/datasets/lishiqianhugh/GSCollision
+    video: https://player.vimeo.com/video/1126658030
+    project: https://neuralgaussianforcefield.github.io/
+
+- title: "Neural Force Field: Few-shot Learning of Generalized Physical Reasoning"
+  authors: "Shiqian Li, Ruihong Shen, Yaoyu Tao, Chi Zhang, Yixin Zhu"
+  venue: "ICLR 2026"
+  teaser: "Casts physical reasoning as learning object-wise force fields, generalizing to unseen dynamics from only a handful of examples."
+  year: 2026
+  image: /assets/img/pubs/neural-force-field.webp
+  links:
+    pdf: https://yzhu.io/publication/intuitive2026iclr/paper.pdf
+    code: https://github.com/lishiqianhugh/NeuralForceField
+    dataset: https://drive.google.com/file/d/1n5P7RiK1V7LxRJW8mvLL-QeDzHF7d75O/view
+    video: https://vimeo.com/1055247476
+    project: https://neuralforcefield.github.io/
+
+- title: "Proposing and solving olympiad geometry with guided tree search"
+  authors: "Chi Zhang, Jiajun Song, Siyu Li, Yitao Liang, Yuxi Ma, Wei Wang, Yixin Zhu, Song-Chun Zhu"
+  venue: "Nature Machine Intelligence, Jan Issue, 2026"
+  teaser: "A neuro-symbolic engine that proposes and solves Olympiad-level geometry problems through guided tree search — the January 2026 cover of Nature Machine Intelligence."
+  year: 2026
+  image: /assets/img/pubs/olympiad-geometry.webp
   links:
     pdf: https://www.nature.com/articles/s42256-025-01164-x
-    # project: "#"
     code: https://github.com/bigai-ai/tong-geometry
+  media:
+    - label: "新华社"
+      url: https://h.xinhuaxmt.com/vh512/share/12943276?docid=12943276&newstype=1001&d=135251e&channel=weixin&time=1769431053375
+    - label: "Xinhua News"
+      url: https://xhnewsapi.xinhuaxmt.com/share/news_pc?id=1172704292913152
+    - label: "人民日报"
+      url: https://www.peopleapp.com/column/30051323324-500007330263
+    - label: "人民网"
+      url: http://finance.people.com.cn/n1/2026/0128/c1004-40654631.html
+    - label: "People's Daily"
+      url: https://en.people.cn/n3/2026/0128/c90000-20419854.html
+    - label: "科技日报"
+      url: https://app.kjrb.com.cn/app/template/displayTemplate/news/newsDetail/7/466291.html?isShare=true
+
+# ---------------------------------------------------------------- 2025 -------
+- title: "Heterogeneous Adversarial Play in Interactive Environments"
+  authors: "Manjie Xu, Xinyi Yang, Jiayu Zhan, Wei Liang, Chi Zhang, Yixin Zhu"
+  venue: "NeurIPS 2025"
+  teaser: "Agents acquire open-ended skills through adversarial play between heterogeneous roles in interactive environments."
+  year: 2025
+  image: /assets/img/pubs/hap.webp
+  links:
+    pdf: https://yzhu.io/publication/active2025neurips/paper.pdf
+    code: https://github.com/ariesssxu/hap
+    poster: https://yzhu.io/publication/active2025neurips/poster.pdf
+    video: https://vimeo.com/1132719609
+    project: https://sites.google.com/view/hap-learning
+
+- title: "Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving"
+  authors: "ByteDance Seed AI4Math"
+  venue: "Tech report, July 2025"
+  teaser: "Deep-and-broad reasoning for automated theorem proving in Lean — reaching state of the art on competition math and formally reaching silver-medal performance in IMO 2025."
+  year: 2025
+  links:
+    pdf: https://arxiv.org/abs/2507.23726
+    code: https://github.com/ByteDance-Seed/Seed-Prover
+
+- title: "Probing and inducing combinational creativity in vision-language models"
+  authors: "Yongqian Peng, Yuxi Ma, Mengmeng Wang, Yuxuan Wang, Yizhou Wang, Chi Zhang, Yixin Zhu, Zilong Zheng"
+  venue: "CogSci 2025"
+  teaser: "Probes whether vision-language models can blend familiar concepts into genuinely novel ones — and shows how to induce that creativity."
+  year: 2025
+  image: /assets/img/pubs/combinational-creativity.webp
+  links:
+    pdf: https://yzhu.io/publication/creativity2025cogsci/paper.pdf
+    code: https://github.com/PPYYQQ/aicc-code
+    dataset: https://drive.google.com/drive/folders/1XIvOVwP0eVX60L-STugt_vi19Q_kAEMW
+    video: https://vimeo.com/1075960292
+    project: https://ppyyqq.github.io/aicc/
+  media:
+    - label: "量子位"
+      url: https://mp.weixin.qq.com/s/ZkkVx3TXUIiwe-XNyyWj3Q
+
+- title: "A simulation-heuristics dual-process model for intuitive physics"
+  authors: "Shiqian Li, Yuxi Ma, Jiajun Yan, Bo Dai, Yujia Peng, Chi Zhang, Yixin Zhu"
+  venue: "CogSci 2025"
+  teaser: "Models intuitive physics as a dual process that blends mental simulation with fast heuristics, matching human judgments and timing."
+  year: 2025
+  image: /assets/img/pubs/dual-process-physics.webp
+  links:
+    pdf: https://yzhu.io/publication/intuitive2025cogsci/paper.pdf
+    code: https://github.com/lishiqianhugh/DualModel
+    video: https://vimeo.com/1073941780
+    poster: https://yzhu.io/publication/intuitive2025cogsci/poster.pdf
+    dataset: https://drive.google.com/file/d/1R6x_3L0DQFJ3HU0yYvjkhPGKA94tzNok/view?usp=sharing
+
+# ---------------------------------------------------------------- 2024 -------
+- title: "Human-level few-shot concept induction through minimax entropy learning"
+  authors: "Chi Zhang, Baoxiong Jia, Yixin Zhu, Song-Chun Zhu"
+  venue: "Science Advances, Vol 10, Issue 16, 2024"
+  teaser: "Induces abstract visual concepts from only a few examples at human-level accuracy, via a minimax-entropy formulation — published in Science Advances."
+  year: 2024
+  image: /assets/img/pubs/concept-induction.jpg
+  links:
+    pdf: https://www.science.org/doi/10.1126/sciadv.adg2488
+  media:
+    - label: "人民日报"
+      url: http://paper.people.com.cn/rmrb/html/2024-04/29/nw.D110000renmrb_20240429_4-19.htm
+    - label: "新华网"
+      url: https://app.xinhuanet.com/news/article.html?articleId=0804cceb6ad31b2f4f05fd261cc3946a&timestamp=7541
+    - label: "光明网"
+      url: https://digital.gmw.cn/2024-04/24/content_37283023.htm
+    - label: "科技日报"
+      url: http://digitalpaper.stdaily.com/http_www.kjrb.com/kjrb/html/2024-05/20/content_571770.htm?div=-1
+
+- title: "I-PHYRE: Interactive Physical Reasoning"
+  authors: "Shiqian Li, Kewen Wu, Chi Zhang, Yixin Zhu"
+  venue: "ICLR 2024"
+  teaser: "A benchmark for interactive physical reasoning, where agents must act in real time to exploit — not merely predict — physical dynamics."
+  year: 2024
+  image: /assets/img/pubs/iphyre.jpg
+  links:
+    pdf: https://arxiv.org/abs/2312.03009
+    code: https://github.com/lishiqianhugh/IPHYRE
+    video: https://vimeo.com/793260764/2f77f9d5cb
+    poster: https://yzhu.io/publication/intuitive2024iclr/poster.pdf
+    project: https://lishiqianhugh.github.io/IPHYRE
+  media:
+    - label: "北大AI院"
+      url: https://mp.weixin.qq.com/s/QRIgozzM4rYDfqel3Pme-Q
+
+# ---------------------------------------------------------------- 2023 -------
+- title: "Active Reasoning in an Open-World Environment"
+  authors: "Manjie Xu, Guangyuan Jiang, Wei Liang, Chi Zhang, Yixin Zhu"
+  venue: "NeurIPS 2023"
+  teaser: "Agents that actively gather evidence through interaction to answer questions in an open world."
+  year: 2023
+  image: /assets/img/pubs/active-reasoning.webp
+  links:
+    pdf: https://arxiv.org/abs/2311.02018
+    code: https://github.com/mjtsu/Conan-Active-Reasoning
+    supplementary: https://yzhu.io/publication/intent2023neurips/supp.pdf
+    poster: https://yzhu.io/publication/intent2023neurips/poster.pdf
+    project: https://sites.google.com/view/conan-active-reasoning
+
+- title: "Evaluating and Inducing Personality in Pre-trained Language Models"
+  authors: "Guangyuan Jiang*, Manjie Xu*, Song-Chun Zhu, Wenjuan Han, Chi Zhang, Yixin Zhu"
+  venue: "NeurIPS 2023 (Spotlight)"
+  teaser: "Shows pre-trained language models carry measurable, steerable personality traits — with a framework to evaluate and induce them."
+  year: 2023
+  image: /assets/img/pubs/personality-llm.png
+  links:
+    pdf: https://arxiv.org/abs/2206.07550
+    supplementary: https://yzhu.io/publication/llm2023neurips/supp.pdf
+    poster: https://yzhu.io/publication/llm2023neurips/poster.pdf
+
+- title: "Interactive Visual Reasoning under Uncertainty"
+  authors: "Manjie Xu*, Guangyuan Jiang*, Wei Liang, Chi Zhang, Yixin Zhu"
+  venue: "NeurIPS 2023 Datasets and Benchmarks"
+  teaser: "Agents run experiments to uncover hidden causal 'blicket' rules, benchmarking interactive visual reasoning under uncertainty."
+  year: 2023
+  image: /assets/img/pubs/ivre.png
+  links:
+    pdf: https://yzhu.io/publication/blicket2023neurips/paper.pdf
+    code: https://github.com/mjtsu/IVRE
+    supplementary: https://yzhu.io/publication/blicket2023neurips/supp.pdf
+    poster: https://yzhu.io/publication/blicket2023neurips/poster.pdf
+    project: https://sites.google.com/view/ivre
+
+- title: "X-VoE: Measuring eXplanatory Violation of Expectation in Physical Events"
+  authors: "Bo Dai, Linge Wang, Baoxiong Jia, Zeyu Zhang, Song-Chun Zhu, Chi Zhang, Yixin Zhu"
+  venue: "ICCV 2023 (Oral)"
+  teaser: "Tests whether machines can explain surprising physical events, not just detect them — violation-of-expectation as infants reveal it."
+  year: 2023
+  image: /assets/img/pubs/x-voe.webp
+  links:
+    pdf: https://arxiv.org/abs/2308.10441
+    code: https://github.com/daibopku/X-VoE
+    supplementary: https://yzhu.io/publication/intuitive2023iccv/supp.pdf
+    poster: https://yzhu.io/publication/intuitive2023iccv/poster.pdf
+    dataset: https://huggingface.co/datasets/RuriSama/X-VoE/tree/main
+    project: https://sites.google.com/view/x-voe
+
+- title: "MEWL: Few-shot multimodal word learning with referential uncertainty"
+  authors: "Guangyuan Jiang, Manjie Xu, Shiji Xin, Wei Liang, Yujia Peng, Chi Zhang, Yixin Zhu"
+  venue: "ICML 2023"
+  teaser: "A few-shot benchmark for learning new words from images under referential uncertainty."
+  year: 2023
+  image: /assets/img/pubs/mewl.png
+  links:
+    pdf: https://arxiv.org/abs/2306.00503
+    code: https://github.com/jianggy/MEWL
+    project: https://sites.google.com/view/mewl
+
+- title: "Brain in a vat: On missing pieces towards artificial general intelligence in large language models"
+  authors: "Yuxi Ma, Chi Zhang, Song-Chun Zhu"
+  venue: "Opinion, July 2023"
+  teaser: "An opinion piece on what today's language models still lack — grounding, embodiment, and agency — on the road to AGI."
+  year: 2023
+  image: /assets/img/pubs/brain-in-a-vat.svg
+  links:
+    pdf: https://arxiv.org/abs/2307.03762
+
+# ---------------------------------------------------------------- 2022 -------
+- title: "On the Learning Mechanisms in Physical Reasoning"
+  authors: "Shiqian Li*, Kewen Wu*, Chi Zhang, Yixin Zhu"
+  venue: "NeurIPS 2022 (Spotlight)"
+  teaser: "Disentangles how models actually acquire physical reasoning, separating the roles of perception, dynamics, and inference."
+  year: 2022
+  image: /assets/img/pubs/learning-mechanisms.jpg
+  links:
+    pdf: https://arxiv.org/abs/2210.02075
+    poster: https://pku.ai/publication/intuitive2022neurips/poster.pdf
+    code: https://github.com/lishiqianhugh/LfID
+    project: https://lishiqianhugh.github.io/LfID_Page
+  media:
+    - label: "Institute for AI, PKU"
+      url: https://mp.weixin.qq.com/s/rZiRji2FtMIWsu2CU1LfzQ

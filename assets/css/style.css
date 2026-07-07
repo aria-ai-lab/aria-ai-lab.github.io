@@ -535,6 +535,44 @@ img { max-width: 100%; display: block; }
 .pill:hover { color: #fff; background: var(--accent); border-color: var(--accent); }
 .pill .ic-svg { width: 14px; height: 14px; }
 
+/* Press coverage: a news badge followed by outlet buttons */
+.pub-press {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.pub-press-lead {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: none;
+  padding: 6px 11px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.pub-press-lead .ic-svg {
+  width: 13px;
+  height: 13px;
+}
+/* Outlet buttons reuse .pill but read as natural serif names, not mono labels */
+.pill-press {
+  padding: 5px 13px;
+  font-family: var(--font-serif);
+  font-size: 13.5px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
 /* ---------- Empty state --------------------------------------------------- */
 
 .empty {

@@ -5,7 +5,8 @@ title: Publications
 subtitle: Work from ARIA members, most recent first.
 ---
 
-{% assign pubs = site.data.publications | sort: 'year' | reverse %}
+{% comment %} Entries are kept newest-first in _data/publications.yml; render in file order so intra-year order is preserved. {% endcomment %}
+{% assign pubs = site.data.publications %}
 
 {% if pubs and pubs.size > 0 %}
   {% assign current_year = "" %}
@@ -23,10 +24,21 @@ subtitle: Work from ARIA members, most recent first.
         <p class="pub-authors">{{ pub.authors }}</p>
         {% if pub.venue %}<p class="pub-venue">{{ pub.venue }}</p>{% endif %}
         {% if pub.teaser %}<p class="pub-teaser">{{ pub.teaser }}</p>{% endif %}
+        {% if pub.media and pub.media.size > 0 %}
+        <div class="pub-press">
+          <span class="pub-press-lead">
+            <svg class="ic-svg" viewBox="0 0 24 24" aria-hidden="true"><use href="#ic-news"></use></svg>
+            <span>In the press</span>
+          </span>
+          {% for item in pub.media %}<a class="pill pill-press" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.label }}</a>{% endfor %}
+        </div>
+        {% endif %}
         <div class="iconrow pub-links">
           {% include pub-link.html name="file"      href=pub.links.pdf           label="PDF" %}
           {% include pub-link.html name="file-plus" href=pub.links.supplementary label="Supp." %}
           {% include pub-link.html name="image"     href=pub.links.poster        label="Poster" %}
+          {% include pub-link.html name="slides"    href=pub.links.slides        label="Slides" %}
+          {% include pub-link.html name="video"     href=pub.links.video         label="Video" %}
           {% include pub-link.html name="external"  href=pub.links.project       label="Project" %}
           {% include pub-link.html name="database"  href=pub.links.dataset       label="Data" %}
           {% include pub-link.html name="code"      href=pub.links.code          label="Code" %}
