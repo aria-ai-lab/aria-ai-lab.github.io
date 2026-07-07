@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img" aria-label="ARIA members won the Marr Prize at CogSci 2026">
+  <defs>
+    <radialGradient id="marr-spot" cx="50%" cy="40%" r="58%">
+      <stop offset="0%" stop-color="#F4DCC7"/>
+      <stop offset="55%" stop-color="#E7C3A6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F6F1E7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="480" height="270" fill="#F6F1E7"/>
+  <rect width="480" height="270" fill="url(#marr-spot)"/>
+
+  <!-- ground: the staff -->
+  <g stroke="#B4572F" stroke-width="1.5" opacity="0.16">
+    <line x1="36" y1="236" x2="444" y2="236"/>
+    <line x1="36" y1="248" x2="444" y2="248"/>
+    <line x1="36" y1="260" x2="444" y2="260"/>
+  </g>
+
+  <!-- award ribbon tails hanging beneath the medal -->
+  <g>
+    <path d="M224 150 L214 206 L230 197 L236 154 Z" fill="#B4572F"/>
+    <path d="M256 150 L266 206 L250 197 L244 154 Z" fill="#B4572F"/>
+    <path d="M224 150 L214 206 L230 197 L236 154 Z" fill="#23201B" opacity="0.16"/>
+    <path d="M256 150 L266 206 L250 197 L244 154 Z" fill="#F4DCC7" opacity="0.18"/>
+  </g>
+
+  <!-- laurel wreath, open at the top, encircling the mind -->
+  <g>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(262.5 77.0) rotate(10.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(275.5 88.3) rotate(32.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(283.3 103.6) rotate(54.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(284.8 120.7) rotate(76.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(279.7 137.1) rotate(98.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(268.9 150.5) rotate(120.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(253.9 158.8) rotate(142.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(269.5 82.0) rotate(21.0) scale(0.6)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(280.1 95.6) rotate(43.0) scale(0.6)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(284.8 112.1) rotate(65.0) scale(0.6)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(283.0 129.2) rotate(87.0) scale(0.6)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(275.0 144.3) rotate(109.0) scale(0.6)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(261.8 155.4) rotate(131.0) scale(0.6)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(217.5 77.0) rotate(-10.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(204.5 88.3) rotate(-32.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(196.7 103.6) rotate(-54.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(195.2 120.7) rotate(-76.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(200.3 137.1) rotate(-98.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(211.1 150.5) rotate(-120.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#B4572F" transform="translate(226.1 158.8) rotate(-142.0) scale(1.0)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(210.5 82.0) rotate(-21.0) scale(0.6)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(199.9 95.6) rotate(-43.0) scale(0.6)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(195.2 112.1) rotate(-65.0) scale(0.6)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(197.0 129.2) rotate(-87.0) scale(0.6)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(205.0 144.3) rotate(-109.0) scale(0.6)"/>
+    <path d="M0 0 C -5.5 -6 -5.5 -16 0 -23 C 5.5 -16 5.5 -6 0 0 Z" fill="#D39A78" transform="translate(218.2 155.4) rotate(-131.0) scale(0.6)"/>
+  </g>
+
+  <!-- star crowning the open top of the wreath -->
+  <path d="M240 60 L243 71 L254.5 71.3 L245.2 78.2 L248.7 89.4 L240 82.6 L231.3 89.4 L234.8 78.2 L225.5 71.3 L237 71 Z" fill="#B4572F"/>
+
+  <!-- the mind at the center: a head in profile, facing left -->
+  <g transform="translate(240 116)">
+    <path d="M9 24
+             C -19 24 -32 7 -30 -9
+             C -28 -24 -13 -33 5 -31
+             C 22 -29 31 -13 30 2
+             C 29 11 24 13 24 19
+             C 24 23 26 24 22 25
+             L 9 24 Z"
+          fill="#FBF8F1" stroke="#23201B" stroke-width="1.7" stroke-linejoin="round"/>
+    <!-- brain / thought: a spiral of reasoning -->
+    <path d="M14 -5
+             C 3 -13 -13 -6 -11 5
+             C -9 13 5 15 9 6
+             C 11 1 4 -3 0 0
+             C -2 2 -1 6 3 5"
+          fill="none" stroke="#B4572F" stroke-width="2" stroke-linecap="round"/>
+    <!-- spark of insight -->
+    <path d="M-17 -16 L-15.4 -11.6 L-11 -10.2 L-15.4 -8.8 L-17 -4.4 L-18.6 -8.8 L-23 -10.2 L-18.6 -11.6 Z" fill="#D39A78"/>
+  </g>
+
+  <!-- title banner -->
+  <g>
+    <path d="M176 218 h128 v18 h-128 Z" fill="#23201B"/>
+    <path d="M176 218 l-9 9 l9 9 Z" fill="#23201B" opacity="0.55"/>
+    <path d="M304 218 l9 9 l-9 9 Z" fill="#23201B" opacity="0.55"/>
+    <text x="240" y="231" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="8" font-weight="700" letter-spacing="0.2em" fill="#F6F1E7">MARR PRIZE</text>
+  </g>
+  <text x="240" y="254" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="7" letter-spacing="0.22em" fill="#B4572F">COGSCI 2026 · BEST PAPER</text>
+</svg>

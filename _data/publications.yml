@@ -7,6 +7,24 @@
 # Equal contribution is marked with a trailing * on the author name.
 
 # ---------------------------------------------------------------- 2026 -------
+- title: "Timing is Everything: Temporal Scaffolding of Semantic Surprise in Humor"
+  authors: "Yuxi Ma*, Yongqian Peng*, Junchen Lyu, Chi Zhang, Yixin Zhu"
+  venue: "CogSci 2026 (Marr Prize — Best Paper)"
+  teaser: "A Dual Prediction Violation account of humor: across 828 stand-up performances, temporal scaffolding of semantic surprise — pauses lengthened before high-surprise punchlines — outweighs incongruity alone in predicting laughter."
+  year: 2026
+  image: /assets/img/pubs/humor.png
+  links:
+    pdf: https://arxiv.org/abs/2605.00143
+
+- title: "Multi-Level Narrative Evaluation Outperforms Lexical Features for Mental Health"
+  authors: "Yuxi Ma*, Jieming Cui*, Muyang Li*, Ye Zhao, Yu Li, Yixuan Wang, Chi Zhang, Yinyin Zang, Yixin Zhu"
+  venue: "CogSci 2026"
+  teaser: "A three-tier framework for therapeutic writing: across 830 Chinese texts on depression, anxiety, and trauma, macro-level narrative evaluation — story grammar, coherence, propositional composition — substantially outperforms lexical and embedding features."
+  year: 2026
+  image: /assets/img/pubs/multi-level-narrative.png
+  links:
+    pdf: https://arxiv.org/abs/2604.27846
+
 - title: "NarrativeLoom: Enhancing Creative Storytelling through Multi-Persona Collaborative Improvisation"
   authors: "Yuxi Ma, Yongqian Peng, Fengyuan Yang, Siyu Zha, Chi Zhang, Zixia Jia, Zilong Zheng, Yixin Zhu"
   venue: "CHI 2026"

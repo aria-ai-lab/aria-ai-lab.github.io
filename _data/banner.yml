@@ -1,6 +1,8 @@
 # Running highlights banner on the home page.
 # image: path under /assets/img/ (falls back to a placeholder if omitted)
 # text:  short caption shown under the image
+- image: /assets/img/news/marr-prize.svg
+  text: ARIA members won the Marr Prize at CogSci 2026.
 - image: /assets/img/news/open-doors.svg
   text: ARIA opens its doors at Peking University.
 - image: /assets/img/news/nmi-cover.svg
