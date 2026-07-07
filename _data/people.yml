@@ -85,6 +85,19 @@ collaborators:
     email: s.c.zhu@pku.edu.cn
     homepage: https://zhusongchun.net/
     scholar: https://scholar.google.com/citations?user=Al8dyb4AAAAJ&hl=en
+  - name: Ying Nian Wu
+    role: Professor
+    affiliation: Department of Statistics and Data Science, UCLA
+    avatar: http://www.stat.ucla.edu/~ywu/2025WU.jpg
+    email: ywu@stat.ucla.edu
+    homepage: http://www.stat.ucla.edu/~ywu/
+    scholar: https://scholar.google.com/citations?user=7k_1QFIAAAAJ&hl=en
+  - name: Yizhou Wang
+    role: Professor
+    affiliation: Center on Frontiers of Computing Studies, Peking University
+    avatar: https://cfcs.pku.edu.cn/english/images/2026-06/cecd99edaf3e41368bbbf35fa0789182.jpg
+    email: yizhou.wang@pku.edu.cn
+    homepage: hhttps://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm
   - name: Yixin Zhu
     role: Assistant Professor
     affiliation: School of Psychological and Cognitive Sciences, Peking University
@@ -93,6 +106,43 @@ collaborators:
     github: https://github.com/xiaozhuchacha
     homepage: https://yzhu.io/
     scholar: https://scholar.google.com/citations?user=qG9l6JEAAAAJ&hl=en
+  - name: Yujia Peng
+    role: Assistant Professor
+    affiliation: School of Psychological and Cognitive Sciences, Peking University
+    avatar: https://www.ypeng.org/author/yujia-peng-%E5%BD%AD%E7%8E%89%E4%BD%B3/avatar_hub7c6c8916a8c8280d0a5dca4be6c0033_37295_270x270_fill_q75_lanczos_center.jpg
+    email: yujia_peng@pku.edu.cn
+    github: https://github.com/yjpeng11
+    homepage: https://www.ypeng.org/author/yujia-peng-%E5%BD%AD%E7%8E%89%E4%BD%B3/
+    scholar: https://scholar.google.com/citations?hl=en&user=h1xbFn4AAAAJ&
+  - name: Wei Liang
+    role: Professor
+    affiliation: Beijing Institute of Technology
+    avatar: https://liangwei-bit.github.io/web/images/liangwei.png
+    email: liangwei@bit.edu.cn
+    homepage: https://liangwei-bit.github.io/web/
+    scholar: https://scholar.google.com/citations?user=3p6YfBEAAAAJ&hl=en
+  - name: Wei Wang
+    role: Research Scientist
+    affiliation: Beijing Institute for General Artificial Intelligence
+    avatar: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=bW7FUnYAAAAJ&citpid=2
+    email: wang.gucas@gmail.com
+    homepage: https://cognn.com/
+    scholar: https://scholar.google.com/citations?hl=en&user=bW7FUnYAAAAJ
+  - name: Zilong Zheng
+    role: Research Scientist
+    affiliation: Beijing Institute for General Artificial Intelligence
+    avatar: https://zilongzheng.github.io/assets/img/zilong.JPG
+    email: z.zheng@ucla.edu
+    github: https://github.com/bigai-nlco
+    homepage: https://zilongzheng.github.io/
+    scholar: https://scholar.google.com/citations?user=9sDx70IAAAAJ
+  - name: Zixia Jia
+    role: Research Scientist
+    affiliation: Beijing Institute for General Artificial Intelligence
+    avatar: https://assets.underline.io/profile/230458/square_avatar/medium-ebe57a47282db69432efdff597218b14.jpeg
+    email: jiazixia@bigai.ai
+    homepage: https://openreview.net/profile?id=~Zixia_Jia1
+    scholar: https://scholar.google.com/citations?user=FdwGDyoAAAAJ&hl=zh-CN
   - name: Guangyuan Jiang
     role: PhD Student
     affiliation: Massachusetts Institute of Technology
