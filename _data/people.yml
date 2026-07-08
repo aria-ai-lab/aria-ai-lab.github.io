@@ -46,6 +46,11 @@ technical_staff:
     homepage: https://openreview.net/profile?id=~Hengli_Li1
     github: https://github.com/Henry839
     scholar: https://scholar.google.com/citations?user=K7gsqkMAAAAJ&hl=en
+  - name: Huan Cui
+    role: PhD Student (with Jun Sun)
+    affiliation: Wangxuan Institute of Computer Technology, Peking University
+    avatar: /assets/img/people/huan-cui.jpg
+    email: cui_huan@pku.edu.cn
   - name: Manjie Xu
     role: PhD Student (with Yixin Zhu)
     affiliation: School of Intelligence Science and Technology, Peking University
