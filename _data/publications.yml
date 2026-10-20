@@ -7,6 +7,30 @@
 # Equal contribution is marked with a trailing * on the author name.
 
 # ---------------------------------------------------------------- 2026 -------
+- title: "Inferring the Unspoken: Aligning Embodied Agents with Implicit Preferences"
+  authors: "Manjie Xu, Xinyi Yang, Wei Liang, Chi Zhang, Yixin Zhu"
+  venue: "EMNLP 2026"
+  teaser: "Preference-based Planning (PBP): a benchmark of 290 implicit preferences over action parameters, placement, and ordering. Agents must infer the unspoken preference from a few unlabeled demonstrations — and inference, not planning, turns out to be the bottleneck."
+  year: 2026
+  image: /assets/img/pubs/implicit-preferences.webp
+  links:
+    pdf: https://yzhu.io/publication/preference2026emnlp/paper.pdf
+    video: https://vimeo.com/1235807634
+    project: https://sites.google.com/view/preference-based-planning
+    dataset: https://huggingface.co/datasets/ariesssxu/pbp
+    code: https://github.com/ariesssxu/preference-based-planning
+
+- title: "DeFlow: Decoupling Behavior-Prior Modeling and Value Maximization for Offline Policy Extraction"
+  authors: "Zhancun Mu, Chi Zhang"
+  venue: "NeurIPS 2026"
+  teaser: "DeFlow keeps a multi-step flow model as the behavior prior and trains a lightweight residual module to refine its actions — no backpropagation through ODE solvers, and refined actions stay close to the learned prior."
+  year: 2026
+  image: /assets/img/pubs/deflow.png
+  links:
+    pdf: https://arxiv.org/abs/2601.10471
+    project: https://muzhancun.github.io/publications/deflow/
+    code: https://github.com/muzhancun/DeFlow
+
 - title: "Timing is Everything: Temporal Scaffolding of Semantic Surprise in Humor"
   authors: "Yuxi Ma*, Yongqian Peng*, Junchen Lyu, Chi Zhang, Yixin Zhu"
   venue: "CogSci 2026 (Marr Prize — Best Paper)"

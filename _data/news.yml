@@ -1,4 +1,10 @@
 # Latest news, newest first.
+- date: 2026-10-20
+  text: >-
+    Two papers accepted! "Inferring the Unspoken: Aligning Embodied Agents with
+    Implicit Preferences" at EMNLP 2026, and "DeFlow: Decoupling Behavior-Prior
+    Modeling and Value Maximization for Offline Policy Extraction" at NeurIPS
+    2026. See <a href="/publications/">Publications</a>.
 - date: 2026-07-07
   text: >-
     ARIA members won the Marr Prize (Best Paper) at CogSci 2026 for "Timing is

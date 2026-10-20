@@ -34,7 +34,7 @@ technical_staff:
   - name: Yongqian Peng
     role: Master Student
     affiliation: School of Intelligence Science and Technology, Peking University
-    avatar: https://pku.ai/author/yongqian-peng/avatar_hu9667263228146536589.png
+    avatar: https://pku.ai/author/yongqian-peng/avatar_hu_5b3d0f3485571b0.png
     email: 2100017731@stu.pku.edu.cn
     homepage: https://ppyyqq.github.io/
     github: https://github.com/PPYYQQ
@@ -54,21 +54,21 @@ technical_staff:
   - name: Manjie Xu
     role: PhD Student (with Yixin Zhu)
     affiliation: School of Intelligence Science and Technology, Peking University
-    avatar: https://pku.ai/author/manjie-xu/avatar_hu13488630197018120009.jpg
+    avatar: https://pku.ai/author/manjie-xu/avatar_hu_3f143d34348fb9ec.jpg
     email: manjietsu@gmail.com
     homepage: https://ariesssxu.github.io/
     github: https://github.com/ariesssxu
   - name: Shiqian Li
     role: PhD Student (with Yixin Zhu)
     affiliation: School of Intelligence Science and Technology, Peking University
-    avatar: https://pku.ai/author/shiqian-li/avatar_hu15528083623337767467.jpg
+    avatar: https://pku.ai/author/shiqian-li/avatar_hu_2a4246198b570c9b.jpg
     email: shiqianli@stu.pku.edu.cn
     homepage: https://lishiqianhugh.github.io/
     github: https://github.com/lishiqianhugh
   - name: Xinyi Yang
     role: PhD Student (with Yixin Zhu)
     affiliation: School of Intelligence Science and Technology, Peking University
-    avatar: https://pku.ai/author/xinyi-yang/avatar_hu3661216852191193537.jpeg
+    avatar: https://pku.ai/author/xinyi-yang/avatar_hu_9d3d73e896179902.jpeg
     email: xy-yang21@mails.tsinghua.edu.cn
     homepage: https://yyxxyy574.github.io/xinyiyang.github.io/
     github: https://github.com/yyxxyy574
@@ -106,7 +106,7 @@ collaborators:
   - name: Yixin Zhu
     role: Assistant Professor
     affiliation: School of Psychological and Cognitive Sciences, Peking University
-    avatar: https://yzhu.io/authors/yixin-zhu/avatar_hu_f0533b1c1e46729d.jpg
+    avatar: https://pku.ai/author/yixin-zhu/avatar_hu_8218eee562b12ae9.jpg
     email: yixin.zhu@pku.edu.cn
     github: https://github.com/xiaozhuchacha
     homepage: https://yzhu.io/
@@ -159,7 +159,7 @@ collaborators:
   - name: Bo Dai
     role: Research Scientist
     affiliation: Beijing Institute for General Artificial Intelligence
-    avatar: https://pku.ai/author/bo-dai/avatar_hu10505317016469809054.jpg
+    avatar: https://pku.ai/author/bo-dai/avatar_hu_32d76608976050ce.jpg
     email: daibo@bigai.ai
     homepage: https://openreview.net/profile?id=~Bo_Dai5
     scholar: https://scholar.google.com/citations?user=y-Mz7PwAAAAJ&hl=en

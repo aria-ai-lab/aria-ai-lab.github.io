@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img" aria-label="Under way: a new reasoning project on how LLMs think">
+  <defs>
+    <radialGradient id="th-spot" cx="50%" cy="44%" r="56%">
+      <stop offset="0%" stop-color="#F4DCC7"/>
+      <stop offset="55%" stop-color="#E7C3A6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F6F1E7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="480" height="270" fill="#F6F1E7"/>
+  <rect width="480" height="270" fill="url(#th-spot)"/>
+
+  <!-- ground: the staff -->
+  <g stroke="#B4572F" stroke-width="1.5" opacity="0.16">
+    <line x1="36" y1="232" x2="444" y2="232"/>
+    <line x1="36" y1="244" x2="444" y2="244"/>
+    <line x1="36" y1="256" x2="444" y2="256"/>
+  </g>
+
+  <g transform="translate(0 24)">
+  <!-- prompt: a question bubble -->
+  <g>
+    <rect x="44" y="104" width="62" height="46" rx="10" fill="#23201B"/>
+    <path d="M60 150 L56 164 L72 150 Z" fill="#23201B"/>
+    <text x="75" y="138" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-weight="600" font-size="30" fill="#F6F1E7">?</text>
+  </g>
+
+  <!-- thought tree: branches explored, most pruned -->
+  <g fill="none" stroke-linecap="round" stroke-width="2">
+    <!-- pruned branches -->
+    <g stroke="#23201B" opacity="0.35" stroke-dasharray="4 5">
+      <path d="M156 127 Q178 82 206 76"/>
+      <path d="M206 76 Q230 64 252 60"/>
+      <path d="M206 76 Q232 90 254 94"/>
+      <path d="M156 127 Q180 176 208 182"/>
+      <path d="M208 182 Q234 196 258 200"/>
+      <path d="M268 128 Q292 160 316 168"/>
+    </g>
+    <!-- the chosen chain of thought -->
+    <path d="M110 127 L156 127 Q186 127 210 128 L268 128 Q300 112 330 106 Q362 104 384 120" stroke="#B4572F" stroke-width="2.6"/>
+  </g>
+
+  <!-- thought nodes -->
+  <g fill="#F6F1E7" stroke="#23201B" stroke-width="1.5" opacity="0.5">
+    <circle cx="206" cy="76" r="5"/>
+    <circle cx="252" cy="60" r="4"/>
+    <circle cx="254" cy="94" r="4"/>
+    <circle cx="208" cy="182" r="5"/>
+    <circle cx="258" cy="200" r="4"/>
+    <circle cx="316" cy="168" r="4"/>
+  </g>
+  <!-- pruned marks -->
+  <g stroke="#D39A78" stroke-width="1.8" stroke-linecap="round">
+    <path d="M259 55 l6 6 M265 55 l-6 6"/>
+    <path d="M261 89 l6 6 M267 89 l-6 6"/>
+    <path d="M265 195 l6 6 M271 195 l-6 6"/>
+    <path d="M323 163 l6 6 M329 163 l-6 6"/>
+  </g>
+  <g fill="#B4572F">
+    <circle cx="156" cy="127" r="5.5"/>
+    <circle cx="210" cy="128" r="5.5"/>
+    <circle cx="268" cy="128" r="5.5"/>
+    <circle cx="330" cy="106" r="5.5"/>
+  </g>
+
+  <!-- answer: a resolved note -->
+  <line x1="410" y1="134" x2="410" y2="92" stroke="#23201B" stroke-width="2.2"/>
+  <ellipse cx="403" cy="134" rx="9" ry="6.4" fill="#23201B" transform="rotate(-20 403 134)"/>
+  <path d="M424 70 L426 78 L434 80 L426 82 L424 90 L422 82 L414 80 L422 78 Z" fill="#B4572F"/>
+
+  </g>
+
+  <!-- label -->
+  <text x="44" y="40" font-family="ui-monospace, Menlo, monospace" font-size="9" letter-spacing="0.18em" fill="#B4572F">IN PROGRESS · REASONING</text>
+  <text x="44" y="64" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-weight="600" font-size="20" fill="#23201B">Thinking, just enough</text>
+</svg>
